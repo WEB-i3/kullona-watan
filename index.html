@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="theme-color" content="#c39a38">
+<meta name="description" content="مجلة «كلنا وطن» الإلكترونية – مدرسة فاطمة بنت الخطاب – إعداد الأستاذة نورة الشهري">
+<meta property="og:type" content="website">
+<meta property="og:image" content="cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="مجلة كلنا وطن – مدرسة فاطمة بنت الخطاب">
+<meta property="og:description" content="مجلة إلكترونية وطنية من إعداد الأستاذة نورة الشهري – رائدة الشراكة">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مجلة كلنا وطن – مدرسة فاطمة بنت الخطاب</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--g:#6b4226;--g2:#8a5a37;--gold:#b8935a;--bg:#f3ebdd;--card:#fffdf9;--tx:#3a2a1e;--mut:#7a6858;--line:#e6d8c3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--g:#c08552;--g2:#a56e41;--gold:#e6c79a;--bg:#2a1f17;--card:#35271d;--tx:#f5ecdf;--mut:#cdb9a2;--line:#4a392b}}
+:root[data-theme="dark"]{--g:#c08552;--g2:#a56e41;--gold:#e6c79a;--bg:#2a1f17;--card:#35271d;--tx:#f5ecdf;--mut:#cdb9a2;--line:#4a392b}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 56px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);background-image:radial-gradient(rgba(107,66,38,.08) 1px,transparent 1px);background-size:18px 18px;color:var(--tx);font-family:Tajawal,Tahoma,Arial,sans-serif;line-height:1.9;font-size:17px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--line);display:flex;gap:6px;overflow-x:auto;padding:8px 12px}
+nav button{font:inherit;font-size:14px;white-space:nowrap;border:1px solid var(--line);background:transparent;color:var(--tx);border-radius:20px;padding:4px 14px;cursor:pointer}
+nav button:hover{background:var(--g);color:#fff;border-color:var(--g)}
+.page{max-width:900px;margin:28px auto;padding:0 16px}
+.sheet{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:40px 32px;box-shadow:0 6px 24px rgba(80,50,25,.1);border-top:4px solid var(--gold)}
+.cover{background:linear-gradient(160deg,#7a4a2a,#4a2c1a);color:#fff7ea;text-align:center;border:0;padding:56px 24px;position:relative;overflow:hidden}
+.cover:before,.cover:after{content:"";position:absolute;border-radius:50%;border:2px solid rgba(236,211,168,.35)}
+.cover:before{width:380px;height:380px;top:-160px;left:-120px}.cover:after{width:260px;height:260px;bottom:-110px;right:-80px}
+.cover>*{position:relative}
+.tag{display:inline-block;border:1px solid var(--gold);color:#ecd3a8;border-radius:20px;padding:2px 18px;font-size:14px}
+.cover h1{font-size:clamp(44px,12vw,92px);margin:18px 0 4px;font-weight:800;line-height:1.2}
+.cover h1 span{color:#ecd3a8}
+.ribbon{display:inline-block;margin:0 0 22px;font-size:26px;font-weight:800;color:#ecd3a8}
+.sub{font-size:19px;opacity:.92;margin:0 0 28px}
+.school{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:14px;padding:14px 28px}
+.school b{display:block;font-size:22px}.school small{opacity:.85}
+.crew{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.crew div{background:#fffaf0;color:#5a3820;border-radius:12px;padding:10px 22px;min-width:210px}
+.crew small{display:block;color:#8a7662;font-size:13px}.crew b{font-size:18px}
+h2{color:var(--g);font-size:28px;margin:0 0 6px}
+h2+.bar{width:64px;height:4px;background:var(--gold);border-radius:4px;margin-bottom:22px}
+.toc{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.toc li{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:6px 0;cursor:pointer}
+.toc li:hover{color:var(--g)}
+.word{display:grid;grid-template-columns:150px 1fr;gap:24px;align-items:start}
+@media(max-width:640px){.word{grid-template-columns:1fr}.sheet{padding:28px 18px}}
+.avatar{width:130px;height:130px;border-radius:50%;background:linear-gradient(135deg,var(--g),var(--g2));color:#fff;display:flex;align-items:center;justify-content:center;font-size:46px;font-weight:800;margin:0 auto;border:4px solid var(--gold)}
+.who{text-align:center;margin-top:10px;font-weight:700}.who small{display:block;color:var(--mut);font-weight:400}
+.quote{border-right:4px solid var(--gold);padding:6px 16px;margin:18px 0;color:var(--g);font-weight:700;font-size:19px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.c{border:1px solid var(--line);border-radius:14px;padding:18px;background:var(--bg)}
+.c i{font-style:normal;font-size:30px;display:block}.c b{color:var(--g);font-size:18px}.c p{margin:4px 0 0;font-size:15px;color:var(--mut);line-height:1.7}
+.slot{border:2px dashed var(--line);border-radius:14px;padding:22px;text-align:center;color:var(--mut);margin-top:14px}
+.end{text-align:center}.end .big{font-size:34px;color:var(--g);font-weight:800;margin:8px 0}
+.to{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.to button{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--bg);color:var(--tx);border-radius:12px;padding:8px 16px;cursor:pointer}
+.to button.on{background:var(--g);color:#fff;border-color:var(--g)}
+input,textarea{width:100%;font:inherit;color:var(--tx);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:10px;resize:vertical}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:6px 0 14px}
+.b1,.b2{font:inherit;border-radius:12px;padding:8px 22px;cursor:pointer;border:1px solid var(--g)}
+.b1{background:var(--g);color:#fff}.b2{background:transparent;color:var(--g)}
+.ok{color:var(--g);font-size:14px}.note{color:var(--mut);font-size:13px}
+.letter{background:linear-gradient(160deg,#7a4a2a,#4a2c1a);color:#fff7ea;border-radius:16px;padding:28px 24px;margin:6px 0 14px;border-top:5px solid var(--gold)}
+.letter h3{margin:0 0 10px;color:#ecd3a8;font-size:22px}
+.letter p{margin:0 0 14px;white-space:pre-wrap;overflow-wrap:anywhere}
+.letter .by{font-weight:700}.letter small{display:block;opacity:.8;border-top:1px solid rgba(255,255,255,.25);margin-top:14px;padding-top:8px}
+.slogans{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;background:linear-gradient(90deg,#6b4226,#8a5a37,#6b4226);color:#fff3df;border-radius:14px;padding:12px 18px;font-weight:800;font-size:20px}
+.slogans span:nth-child(even){color:#e6c79a}
+.fig{border-radius:16px;overflow:hidden;border:1px solid var(--line);margin:18px 0}.fig svg{display:block;width:100%;height:auto}
+.sheet{background-image:radial-gradient(circle at 100% 0,rgba(184,147,90,.16),transparent 150px),radial-gradient(circle at 0 100%,rgba(107,66,38,.09),transparent 150px)}
+.cover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44'%3E%3Cpath d='M22 2L42 22 22 42 2 22Z' fill='none' stroke='%23ecd3a8' stroke-opacity='.16' stroke-width='1.5'/%3E%3Ccircle cx='22' cy='22' r='3' fill='%23ecd3a8' fill-opacity='.2'/%3E%3C/svg%3E"),linear-gradient(160deg,#7a4a2a,#4a2c1a);outline:2px solid rgba(236,211,168,.55);outline-offset:-14px;box-shadow:0 14px 34px rgba(74,44,26,.35)}
+.medal{display:block;margin:0 auto 10px;width:104px;height:104px}
+h2:before{content:"✦ ";color:var(--gold);font-size:.7em}
+h2+.bar{width:110px;height:5px;background:linear-gradient(90deg,var(--gold),transparent)}
+.c{transition:.25s;border-top:4px solid #6b4226;box-shadow:0 3px 10px rgba(80,50,25,.08)}
+.c:nth-child(3n+2){border-top-color:#b8935a}.c:nth-child(3n){border-top-color:#8a5a37}
+.c:hover{transform:translateY(-5px);box-shadow:0 10px 22px rgba(80,50,25,.18)}
+.c i{width:54px;height:54px;border-radius:50%;background:var(--card);box-shadow:0 3px 10px rgba(80,50,25,.18);display:flex;align-items:center;justify-content:center;margin-bottom:10px;font-size:28px}
+.avatar{box-shadow:0 0 0 7px rgba(184,147,90,.25),0 10px 20px rgba(80,50,25,.3)}
+.quote{background:rgba(184,147,90,.14);border-radius:10px;padding:10px 16px}
+.slogans{box-shadow:0 8px 20px rgba(80,50,25,.28);font-size:22px;padding:14px 18px}
+.c{cursor:pointer}.md{position:fixed;inset:0;background:rgba(40,25,15,.6);display:none;align-items:center;justify-content:center;padding:20px;z-index:20}.md.on{display:flex}
+.mb{background:var(--card);border-top:6px solid var(--gold);border-radius:18px;max-width:460px;width:100%;padding:28px 26px;position:relative;box-shadow:0 20px 50px rgba(0,0,0,.4);text-align:center}
+.mb .x{position:absolute;top:8px;left:12px;font:inherit;font-size:26px;background:none;border:0;color:var(--mut);cursor:pointer}
+.mb #mi{font-size:44px}.mb h3{color:var(--g);margin:6px 0;font-size:24px}.mb p{margin:0}
+.mb .ex{border:2px dashed var(--line);border-radius:12px;padding:12px;margin-top:14px;color:var(--mut);font-size:15px}
+.mb{max-height:88vh;overflow-y:auto}.bk{text-align:right;margin-top:14px}
+.bk details{background:var(--bg);border:1px solid var(--line);border-radius:12px;margin-bottom:8px;padding:8px 14px}
+.bk summary{cursor:pointer;font-weight:700;color:var(--g)}.bk details p{margin-top:8px;font-size:16px;line-height:2;color:var(--tx)}
+.qq{margin-top:12px}.qq b{display:block;margin-bottom:4px}.qq details{background:var(--card)}.stamp{margin-top:10px;border:2px dashed var(--gold);border-radius:12px;padding:10px;color:var(--g);font-weight:700}.stamp:empty{display:none}
+.mh{display:block;width:calc(100% + 52px);margin:-28px -26px 10px;border-radius:12px 12px 0 0}
+.mb .x{color:#fff3df;z-index:2;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.mb{animation:pop .3s ease}@keyframes pop{from{transform:scale(.92);opacity:0}to{transform:none;opacity:1}}
+.mb{border-top-color:#707c40}.bk details{border-right:5px solid #707c40}
+.c:nth-child(3n+2){border-top-color:#707c40}
+.slogans{background:linear-gradient(90deg,#6b4226,#56612f,#6b4226)}
+.cover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44'%3E%3Cpath d='M22 2L42 22 22 42 2 22Z' fill='none' stroke='%23e8c978' stroke-opacity='.14' stroke-width='1.5'/%3E%3Ccircle cx='22' cy='22' r='2.5' fill='%23e8c978' fill-opacity='.22'/%3E%3C/svg%3E"),radial-gradient(circle at 50% 0,rgba(255,226,160,.28),transparent 62%),linear-gradient(160deg,#6b4a2a 0%,#4a2c1a 55%,#4b4a26 100%);outline:3px solid #d9b56a;outline-offset:-12px;padding:70px 24px 64px;box-shadow:0 18px 40px rgba(74,44,26,.45)}
+.cover>.frm{position:absolute;inset:24px;border:1px solid rgba(217,181,106,.75);border-radius:6px;pointer-events:none}
+.frm:before,.frm:after{content:"❖";position:absolute;left:50%;transform:translateX(-50%);background:#5c3c22;color:#d9b56a;padding:0 12px;font-size:18px;line-height:1}
+.frm:before{top:-9px}.frm:after{bottom:-9px}
+.cover h1{background:linear-gradient(180deg,#fff3cf,#e8c978 55%,#b8893a);background-size:100% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 10px rgba(0,0,0,.4));letter-spacing:1px;animation:sh 6s ease-in-out infinite}
+.cover h1 span{color:transparent}@keyframes sh{0%,100%{background-position:0 0}50%{background-position:0 100%}}
+.tag{background:#d9b56a;color:#4a2c1a;font-weight:800;letter-spacing:1px;padding:3px 22px}
+.ribbon{padding:4px 28px;border-top:1px solid #d9b56a;border-bottom:1px solid #d9b56a;color:#f3dca3;letter-spacing:1px}
+.medal{width:126px;height:126px;stroke:#e8c978;filter:drop-shadow(0 6px 12px rgba(0,0,0,.4))}
+.orn{color:#d9b56a;letter-spacing:10px;margin:-8px 0 16px;font-size:16px}
+.school{background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.04));border:1px solid #d9b56a;box-shadow:0 8px 24px rgba(0,0,0,.28)}.school b{color:#fff1c9}
+.crew div{background:linear-gradient(180deg,#fffaf0,#f1e2c4);border:1px solid #d9b56a;box-shadow:0 8px 18px rgba(0,0,0,.3)}
+.pad{background:var(--card);border:2px solid #707c40;border-radius:16px;overflow:hidden;padding-bottom:14px;box-shadow:0 8px 22px rgba(80,50,25,.15)}
+.pt{display:block;width:100%;height:auto;margin-bottom:10px}
+.pad input,.pad textarea,.pad .row,.pad .wall{margin-inline:16px;width:calc(100% - 32px)}
+.pad .row{width:auto}
+.lined{background:repeating-linear-gradient(var(--card),var(--card) 31px,var(--line) 32px);line-height:32px;padding:4px 14px;border:2px solid var(--gold)}
+.wall{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:6px}
+.note{border-radius:6px;padding:14px;color:#3a2a1e;box-shadow:0 4px 12px rgba(80,50,25,.2);border-top:8px solid rgba(80,50,25,.25);line-height:1.8;font-size:16px}
+.note:nth-child(3n+1){background:#f3e3c8;transform:rotate(-1.5deg)}.note:nth-child(3n+2){background:#e3e8c4;transform:rotate(1.2deg)}.note:nth-child(3n){background:#fffaf0;transform:rotate(-.6deg)}
+.note p{margin:0 0 6px;overflow-wrap:anywhere;white-space:pre-wrap}.note small{color:#7a6858;font-weight:700}
+.lk{display:inline-block;margin-top:8px;text-decoration:none;color:#fff}
+.fin{background:radial-gradient(circle at 50% 0,rgba(239,225,198,.2),transparent 60%),linear-gradient(170deg,#2f5039,#1c3325 60%,#14241a);color:#efe1c6;border:0;position:relative;overflow:hidden;padding:52px 20px calc(min(24vw,215px) + 34px);outline:2px solid #d9b56a;outline-offset:-12px;box-shadow:0 18px 40px rgba(20,36,26,.45)}
+.fin:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(232,201,120,.35) 1.5px,transparent 1.5px);background-size:46px 46px;opacity:.45;pointer-events:none}
+.fin>*{position:relative;z-index:1}.fin>.shelf{position:absolute;left:0;bottom:0;width:100%;height:auto;z-index:0}
+.fin h2{color:#e8c978}.fin .big{color:#f3dca3;text-shadow:0 3px 12px rgba(0,0,0,.4)}.fin p{color:#efe1c6}
+.plaque{display:inline-block;margin:6px 0 4px;padding:8px 34px;font-size:22px;font-weight:800;color:#2b1a0e;background:linear-gradient(180deg,#f3dca3,#d9b56a);border-radius:30px;box-shadow:0 0 0 4px #1c3325,0 0 0 6px #d9b56a,0 10px 20px rgba(0,0,0,.4)}
+.names{display:flex;gap:26px;flex-wrap:wrap;justify-content:center;margin:30px 0 10px}
+.nm{position:relative;min-width:210px;padding:16px 26px;background:linear-gradient(180deg,#f6ead0,#e3cc9f);color:#3a2616;border-radius:8px;box-shadow:0 0 0 4px #1c3325,0 0 0 6px #d9b56a,0 12px 24px rgba(0,0,0,.45)}
+.nm:before{content:"❖";position:absolute;top:-17px;left:50%;transform:translateX(-50%);background:#1c3325;color:#d9b56a;padding:0 8px;font-size:16px;line-height:1}
+.nm small{display:block;color:#56612f;font-weight:700;font-size:14px}.nm b{font-size:21px;color:#4a2c1a}
+.nm:nth-child(2){background:linear-gradient(180deg,#7a4a2a,#4a2c1a)}.nm:nth-child(2) small{color:#e8c978}.nm:nth-child(2) b{color:#f6ead0}
+.nm:nth-child(3){background:linear-gradient(180deg,#e9edcf,#c5ce96)}
+nav{background:linear-gradient(90deg,#2f5039,#1c3325,#2f5039);border-bottom:2px solid #d9b56a;box-shadow:0 4px 14px rgba(20,36,26,.35);padding:9px 14px}
+nav button{color:#f3dca3;border-color:rgba(217,181,106,.55);transition:.2s}nav button:hover{background:#d9b56a;color:#2b1a0e;border-color:#d9b56a}
+.br{color:#e8c978;white-space:nowrap;padding:3px 10px 3px 4px;font-weight:800;font-size:16px}
+#pg{position:fixed;top:env(safe-area-inset-top,0px);right:0;height:3px;width:0;background:linear-gradient(90deg,#e8c978,#b8893a);z-index:30}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s ease}.rv.in{opacity:1;transform:none}
+.sheet:not(.cover):not(.fin):after{content:"❖  كلنا وطن  ❖";display:block;text-align:center;color:var(--gold);font-size:13px;letter-spacing:2px;margin-top:26px;padding-top:12px;border-top:1px solid var(--line)}
+.toc li{display:flex;align-items:center;justify-content:flex-start;gap:12px;padding:9px 0;transition:.2s}.toc li:hover{padding-inline-start:8px}
+.no{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#e8c978,#b98a3a);color:#3a2616;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex:none}.tt{flex:1;font-weight:700}
+body>footer{background:linear-gradient(90deg,#2f5039,#1c3325,#2f5039);color:#f3dca3;width:min(868px,calc(100% - 32px));margin:10px auto 34px;border-radius:14px;padding:18px 16px;border-top:3px solid #d9b56a;box-shadow:0 10px 24px rgba(20,36,26,.35);line-height:1.9;font-size:15px}
+.cover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44'%3E%3Cpath d='M22 2L42 22 22 42 2 22Z' fill='none' stroke='%23e8c978' stroke-opacity='.14' stroke-width='1.5'/%3E%3Ccircle cx='22' cy='22' r='2.5' fill='%23e8c978' fill-opacity='.22'/%3E%3C/svg%3E"),radial-gradient(circle at 50% 0,rgba(239,225,198,.22),transparent 60%),linear-gradient(170deg,#2f5039,#1c3325 60%,#14241a);padding-bottom:calc(min(24vw,215px) + 40px);box-shadow:0 18px 40px rgba(20,36,26,.45)}
+.cover>.frm:before{background:#2b4934}.cover>.frm:after{background:#17291d}
+.cover>.shelf{position:absolute;left:0;bottom:0;width:100%;height:auto;z-index:0}
+.cover>.lt{position:absolute;top:0;width:60px;height:auto;transform-origin:50% 0;animation:sw 5s ease-in-out infinite;z-index:0}.cover>.la{left:7%}.cover>.lb{right:7%;width:50px;animation-delay:-2.5s}
+@keyframes sw{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.crew{gap:26px;margin-top:30px}
+.crew div{box-shadow:0 0 0 4px #1c3325,0 0 0 6px #d9b56a,0 12px 24px rgba(0,0,0,.45)}.crew b{color:#4a2c1a}
+.crew div:nth-child(2){background:linear-gradient(180deg,#7a4a2a,#4a2c1a)}.crew div:nth-child(2) small{color:#e8c978}.crew div:nth-child(2) b{color:#f6ead0}
+.crew div:nth-child(3){background:linear-gradient(180deg,#e9edcf,#c5ce96)}.crew div:nth-child(3) small{color:#56612f}
+.cover>.fr{position:absolute;top:0;width:min(150px,27vw);height:auto;z-index:0;animation:sw 7s ease-in-out infinite}.cover>.fl{left:0;transform-origin:0 0}.cover>.fq{right:0;transform-origin:100% 0;animation-delay:-3.5s}
+.mb{border-top-color:#e8c978}.bk details{border-right-color:#e8c978}.mb .x{color:#7a4a2a;text-shadow:none}
+.pl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}.pb{padding:6px 14px;font-size:14px}.pl small{color:var(--mut)}
+.msgw{background:linear-gradient(180deg,#fffaf0,#f7ecd2);color:#3a2616;border:2px solid #e3cf9f;border-top:5px solid #d9b56a}
+.msgw h2{color:#6b4226}.msgw p{color:#5a4634}.msgw .note{color:#8a7662}
+.mp{display:block;width:100%;height:auto;border-radius:14px;border:1px solid #e3cf9f;margin-bottom:16px}
+.msgw input,.msgw textarea{background:#fffdf6;color:#3a2616;border-color:#d9b56a}
+.msgw .lined{background:repeating-linear-gradient(#fffdf6,#fffdf6 31px,#ecdcbc 32px)}
+.msgw .to button{background:#fffdf6;color:#5a3820;border-color:#d9b56a}.msgw .to button.on{background:#b98a5a;color:#fff;border-color:#b98a5a}
+.msgw .b1{background:#8a5a37;border-color:#8a5a37;color:#fff}.msgw .b2{background:transparent;color:#6b4226;border-color:#b98a5a}.msgw .ok{color:#56612f}
+.letter{background:linear-gradient(180deg,#fffdf6,#f6ead0);color:#3a2616;border:2px solid #d9b56a;border-top:6px solid #b98a5a;box-shadow:0 8px 20px rgba(80,50,25,.2);position:relative;padding-bottom:40px}
+.letter h3{color:#6b4226}.letter small{border-top:1px solid #d9b56a;color:#8a7662;opacity:1}
+.letter:after{content:"📚  ✏️  🖋️";position:absolute;bottom:8px;left:14px;font-size:20px;opacity:.8}
+[hidden]{display:none!important}
+.sheet:not(.fin)>h2{display:inline-block;background:linear-gradient(90deg,#2f5039,#1c3325);color:#f3dca3;padding:8px 26px;border-radius:12px;box-shadow:0 4px 0 #d9b56a,0 10px 18px rgba(20,36,26,.25);margin-bottom:18px;font-size:26px}
+.sheet:not(.fin)>h2:before{color:#e8c978}.sheet:not(.fin)>.bar{display:none}
+.bn{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line);margin:4px 0 16px;box-shadow:0 6px 16px rgba(80,50,25,.12)}
+#p4{background-image:radial-gradient(circle at 100% 0,rgba(143,199,166,.3),transparent 190px),radial-gradient(circle at 0 100%,rgba(143,184,222,.2),transparent 190px)}
+#p4b{background-image:radial-gradient(circle at 100% 0,rgba(143,184,222,.32),transparent 190px),radial-gradient(circle at 0 100%,rgba(246,213,110,.22),transparent 190px)}
+#p5{background-image:radial-gradient(circle at 100% 0,rgba(242,168,138,.3),transparent 190px),radial-gradient(circle at 0 100%,rgba(143,199,166,.2),transparent 190px)}
+#p6{background-image:radial-gradient(circle at 100% 0,rgba(246,213,110,.3),transparent 190px),radial-gradient(circle at 0 100%,rgba(242,168,138,.2),transparent 190px)}
+.c:nth-child(5n+1) i{background:#fde0d2}.c:nth-child(5n+2) i{background:#d8f0e1}.c:nth-child(5n+3) i{background:#d6e8f6}.c:nth-child(5n+4) i{background:#fdf0c4}.c:nth-child(5n) i{background:#e6def5}
+.c i{animation:fl 4s ease-in-out infinite}.c:nth-child(even) i{animation-delay:-2s}@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.toc li:nth-child(5n+1) .no{background:#f2a88a}.toc li:nth-child(5n+2) .no{background:#8fc7a6}.toc li:nth-child(5n+3) .no{background:#8fb8de}.toc li:nth-child(5n+4) .no{background:#f6d56e}.toc li:nth-child(5n) .no{background:#b9a7dd}
+body{background-image:radial-gradient(rgba(107,66,38,.07) 1px,transparent 1px),radial-gradient(circle at 12% 8%,rgba(232,201,120,.3),transparent 42%),radial-gradient(circle at 88% 92%,rgba(63,107,75,.18),transparent 46%),radial-gradient(circle at 92% 14%,rgba(242,168,138,.16),transparent 36%);background-size:18px 18px,auto,auto,auto;background-attachment:fixed}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Cg fill='none' stroke='%236b4226' stroke-opacity='.09' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M32 64V38M32 38Q20 28 8 34M32 38Q24 20 16 20M32 38Q32 16 32 16M32 38Q40 20 48 20M32 38Q44 28 56 34'/%3E%3Cpath d='M92 112q10-6 20 0v-24q-10-6-20 0zM112 112q10-6 20 0v-24q-10-6-20 0z'/%3E%3C/g%3E%3C/svg%3E")}
+.credit{width:min(850px,calc(100% - 44px));margin:18px auto 20px;text-align:center;padding:24px 16px;border-radius:14px;background:linear-gradient(180deg,#fffaf0,#efdcb0);color:#3a2616;box-shadow:0 0 0 4px #1c3325,0 0 0 6px #d9b56a,0 14px 26px rgba(0,0,0,.25)}
+.credit small{display:block;color:#56612f;font-weight:800;letter-spacing:1px}.credit b{display:block;font-size:28px;color:#4a2c1a;margin:4px 0}.credit span{color:#6b4226;font-weight:700}
+.cover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44'%3E%3Cpath d='M22 2L42 22 22 42 2 22Z' fill='none' stroke='%23f3dca3' stroke-opacity='.16' stroke-width='1.5'/%3E%3Ccircle cx='22' cy='22' r='2.5' fill='%23f3dca3' fill-opacity='.22'/%3E%3C/svg%3E"),radial-gradient(circle at 50% 26%,rgba(255,240,170,.26),transparent 55%),radial-gradient(circle at 50% 30%,#1fa35a,#0d7a3f 48%,#065a2c 100%);padding-top:120px}
+.cover>.frm:before{background:#11894b}.cover>.frm:after{background:#075f2f}
+.cover h1{background-image:linear-gradient(180deg,#fff6c9,#f2c94c 50%,#c58f1c)}
+.cover>.arch{position:absolute;top:20px;left:50%;transform:translateX(-50%);width:min(88%,620px);height:auto;z-index:0;pointer-events:none}
+.cover>.cr{position:absolute;top:12px;width:62px;height:62px;z-index:1}.cover>.c1{left:12px}.cover>.c2{right:12px;transform:scaleX(-1)}
+.cover>.nj{position:absolute;left:0;right:0;bottom:0;height:16px;z-index:2;background:linear-gradient(135deg,#e8c978 25%,transparent 25%) -8px 0/16px 16px,linear-gradient(225deg,#e8c978 25%,transparent 25%) -8px 0/16px 16px,#3a2616}
+.medal{width:140px;height:140px;filter:drop-shadow(0 0 16px rgba(255,220,120,.6)) drop-shadow(0 6px 10px rgba(0,0,0,.4))}
+.crew div{box-shadow:0 0 0 4px #075a2d,0 0 0 6px #e8c978,0 12px 24px rgba(0,0,0,.4)}
+.slogans{background:linear-gradient(90deg,#0d7a3f,#17a05a,#0d7a3f)}
+.cover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44'%3E%3Cpath d='M22 2L42 22 22 42 2 22Z' fill='none' stroke='%23f3dca3' stroke-opacity='.13' stroke-width='1.5'/%3E%3Ccircle cx='22' cy='22' r='2.5' fill='%23f3dca3' fill-opacity='.18'/%3E%3C/svg%3E"),radial-gradient(circle at 50% 24%,rgba(255,236,170,.15),transparent 55%),radial-gradient(circle at 50% 30%,#1d7048,#13573a 46%,#0a3a26 100%)}
+.cover>.frm:before{background:#155d3c}.cover>.frm:after{background:#0b3d27}
+.crew div{box-shadow:0 0 0 4px #0a3d26,0 0 0 6px #e8c978,0 12px 24px rgba(0,0,0,.4)}
+.slogans{background:linear-gradient(90deg,#0f5a36,#1d7048,#0f5a36)}
+.cover>.cr,.cover>.fr{display:none}.cover>.gc{position:absolute;top:8px;width:min(150px,30vw);height:auto;z-index:1}.cover>.g1{left:8px}.cover>.g2{right:8px;transform:scaleX(-1)}
+.cover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44'%3E%3Cpath d='M22 2L42 22 22 42 2 22Z' fill='none' stroke='%23e8c978' stroke-opacity='.14' stroke-width='1.5'/%3E%3Ccircle cx='22' cy='22' r='2.5' fill='%23e8c978' fill-opacity='.2'/%3E%3C/svg%3E"),radial-gradient(circle at 50% 24%,rgba(239,225,198,.2),transparent 58%),linear-gradient(170deg,#2f5039,#1c3325 60%,#14241a)}
+.cover>.frm:before{background:#2a4833}.cover>.frm:after{background:#17291d}
+.crew div{box-shadow:0 0 0 4px #1c3325,0 0 0 6px #e8c978,0 12px 24px rgba(0,0,0,.4)}
+.slogans{background:linear-gradient(90deg,#2f5039,#1c3325,#2f5039)}
+.cover>.frm:after{display:none}
+.crew div:nth-child(-n+3),.nm:nth-child(-n+3){background:linear-gradient(180deg,#c9a077,#a97c50)}
+.crew div:nth-child(-n+3) small,.nm:nth-child(-n+3) small{color:#4a2c1a;font-weight:700}
+.crew div:nth-child(-n+3) b,.nm:nth-child(-n+3) b{color:#fffaf0;text-shadow:0 1px 3px rgba(74,44,26,.45)}
+.cover>.gc{display:none}.cover>.gs{position:absolute;top:10px;width:min(104px,22vw);height:auto;z-index:1;filter:drop-shadow(0 4px 6px rgba(0,0,0,.35))}.cover>.gs1{left:18px}.cover>.gs2{right:18px}
+.cover{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44'%3E%3Cpath d='M22 2L42 22 22 42 2 22Z' fill='none' stroke='%23e8c978' stroke-opacity='.14' stroke-width='1.5'/%3E%3Ccircle cx='22' cy='22' r='2.5' fill='%23e8c978' fill-opacity='.2'/%3E%3C/svg%3E"),radial-gradient(circle at 50% 24%,rgba(239,225,198,.06),transparent 58%),linear-gradient(170deg,#2a4833,#1a2f21 60%,#12211a)}
+nav{background:linear-gradient(180deg,#f6e3a8,#e0bf6c 55%,#c39a38);border-bottom:2px solid #8a6a1f;box-shadow:0 4px 14px rgba(80,55,10,.35)}
+nav button{background:linear-gradient(180deg,#2f5039,#1c3325);color:#f3dca3;border:1px solid #14241a;font-weight:700;box-shadow:0 2px 0 rgba(20,36,26,.35)}
+nav button:hover{background:#fff6d8;color:#1c3325;border-color:#1c3325}
+.br{color:#1c3325;text-shadow:0 1px 0 rgba(255,255,255,.45)}
+#pg{background:linear-gradient(90deg,#2f5039,#14241a)}
+.br svg{width:28px;height:28px;vertical-align:middle;margin-inline-start:4px}
+nav{background-image:linear-gradient(135deg,#8a6a1f 25%,transparent 25%),linear-gradient(225deg,#8a6a1f 25%,transparent 25%),linear-gradient(180deg,#f6e3a8,#e0bf6c 55%,#c39a38);background-size:10px 6px,10px 6px,100% 100%;background-position:0 100%,0 100%,0 0;background-repeat:repeat-x,repeat-x,no-repeat;padding-bottom:14px}
+@media(max-width:560px){.grid{grid-template-columns:repeat(2,1fr);gap:10px}.c{padding:14px 12px}.c b{font-size:16px}.c p{font-size:13.5px;line-height:1.6}.c i{width:46px;height:46px;font-size:24px}}
+#up{position:fixed;left:14px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:46px;height:46px;border-radius:50%;border:2px solid #8a6a1f;background:linear-gradient(180deg,#f6e3a8,#d9b56a);color:#1c3325;font:inherit;font-size:22px;font-weight:800;cursor:pointer;box-shadow:0 6px 14px rgba(0,0,0,.3);opacity:0;pointer-events:none;transition:.3s;z-index:15}#up.on{opacity:1;pointer-events:auto}
+.sb{color:var(--g);font-size:21px;margin:22px 0 10px}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.nb{background:var(--bg);border:1px solid var(--line);border-top:4px solid #6b4226;border-radius:14px;padding:14px 10px;text-align:center;box-shadow:0 3px 10px rgba(80,50,25,.1)}
+.nb:nth-child(3n+2){border-top-color:#707c40}.nb:nth-child(3n){border-top-color:#b8935a}
+.nb .n{display:inline-block;background:linear-gradient(180deg,#2f5039,#1c3325);color:#f3dca3;font-weight:800;font-size:32px;border-radius:12px;padding:0 20px;letter-spacing:2px;box-shadow:0 3px 0 #d9b56a}
+.nb .t{display:block;margin-top:8px;font-weight:700;color:var(--tx)}
+.tip{background:rgba(184,147,90,.16);border-right:5px solid #d9b56a;border-radius:10px;padding:12px 16px;margin-top:14px;line-height:1.9}.tip small{color:var(--mut)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.ft{display:flex;gap:12px;align-items:center;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:12px}
+.ft b{flex:none;min-width:84px;text-align:center;background:linear-gradient(180deg,#f6e3a8,#d9b56a);color:#3a2616;border-radius:10px;padding:6px 8px;font-size:18px}
+.ft span{font-size:15px;line-height:1.7}
+.qa{animation:qin .5s cubic-bezier(.2,.8,.2,1)}@keyframes qin{from{opacity:0;transform:translateX(-46px) scale(.94)}60%{opacity:1}to{opacity:1;transform:none}}
+.letter{animation:lpop .6s cubic-bezier(.2,.9,.3,1.2)}@keyframes lpop{from{opacity:0;transform:translateY(24px) rotate(-2deg) scale(.92)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.qa,.letter{animation:none}}
+.qzb{background:linear-gradient(180deg,#fffaf0,#f6ead0);color:#3a2616;border:2px solid #d9b56a;border-radius:16px;padding:18px}
+.qh{font-weight:800;font-size:20px;color:#4a2c1a;margin-bottom:12px}
+.qo{display:flex;gap:10px;flex-wrap:wrap}.qo button{font-size:24px;min-width:90px;background:#fffdf6;color:#4a2c1a;border-color:#b98a5a}
+.qo button.good{background:#d8f0e1;border-color:#2f7a4a}.qo button.bad{background:#fde0d2;border-color:#c0583e}
+.qf{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-top:14px;flex-wrap:wrap}.qf span{font-weight:700;color:#56612f}
+.qzb .b1{background:#8a5a37;border-color:#8a5a37;color:#fff}
+.gh{color:var(--g);font-size:17px;margin:18px 0 8px}.nb .n.l{font-size:24px;letter-spacing:1px}.nt{display:block;color:var(--mut);font-size:12.5px;margin-top:4px;line-height:1.5}
+.cl{text-align:center;margin-top:10px}.pal{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:8px}
+.pal button{width:30px;height:30px;border-radius:50%;border:2px solid #b98a5a;cursor:pointer;padding:0}.pal button.on{outline:3px solid #2f5039;outline-offset:2px}
+.cs{display:block;width:100%;max-width:420px;margin:8px auto 10px;background:#fff;border:2px solid #d9b56a;border-radius:12px}
+.cs .rg{fill:#fff;stroke:#4a2c1a;stroke-width:3;stroke-linejoin:round;cursor:pointer}
+footer{text-align:center;color:var(--mut);font-size:14px;padding:10px 16px 40px}
+</style>
+</head>
+<body>
+<nav id="nav"></nav>
+
+<div class="page"><section class="sheet cover" id="p0"><i class="frm"></i>
+  <svg class="medal" viewBox="0 0 100 100" fill="none" stroke="#ecd3a8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="rgba(255,255,255,.08)" stroke-width="2"/><circle cx="50" cy="50" r="41" stroke-width="1" stroke-dasharray="2 4"/><path d="M50 64V38" stroke-width="6"/><path d="M50 38Q35 24 18 33M50 38Q39 15 25 17M50 38Q50 12 50 12M50 38Q61 15 75 17M50 38Q65 24 82 33" stroke-width="3.5"/><path d="M26 82L74 64M74 82L26 64" stroke-width="4"/></svg>
+  <span class="tag">المجلة الإلكترونية</span>
+  <h1>كلنا <span>وطن</span></h1>
+  <div class="ribbon">✦ وطني الغالي ✦</div>
+  <p class="sub">نبني الوعي، ونعزز الانتماء، ونصنع المستقبل</p>
+  <div class="orn">✦ ❖ ✦</div><div class="school"><b>مدرسة فاطمة بنت الخطاب</b><small>المملكة العربية السعودية</small></div>
+  <div class="crew">
+    <div><small>مديرة المدرسة</small><b>الأستاذة نوف الأسمري</b></div>
+    <div><small>الوكيلة</small><b>الأستاذة أسماء القحطاني</b></div>
+    <div><small>إعداد رائدة الشراكة</small><b>الأستاذة نورة الشهري</b></div>
+  </div>
+</section></div>
+
+<div class="page"><div class="slogans"><span>وطني الغالي</span><span>✦</span><span>فخر وانتماء</span><span>✦</span><span>كلنا وطن</span></div></div>
+
+<div class="page"><section class="sheet" id="p1">
+  <h2>محتويات العدد</h2><div class="bar"></div>
+  <ul class="toc" id="toc"></ul>
+</section></div>
+
+<div class="page"><section class="sheet" id="p2">
+  <h2>كلمة مديرة المدرسة</h2><div class="bar"></div>
+  <div class="word">
+    <div><div class="avatar"><svg viewBox="0 0 100 100" width="84" height="84" aria-label="شعار وطني" fill="none" stroke="#fff3df" stroke-linecap="round" stroke-linejoin="round"><path d="M50 66V40" stroke-width="7"/><path d="M50 40Q34 24 14 34M50 40Q38 14 22 16M50 40Q50 12 50 10M50 40Q62 14 78 16M50 40Q66 24 86 34" stroke-width="4"/><path d="M22 90L76 68M78 90L24 68" stroke-width="4.5"/><path d="M18 92l8-4M82 92l-8-4" stroke="#e6c79a" stroke-width="5"/></svg></div><div class="who">الأستاذة نوف الأسمري<small>مديرة المدرسة</small></div></div>
+    <div>
+      <p>بسم الله الرحمن الرحيم، والصلاة والسلام على أشرف الأنبياء والمرسلين.</p>
+      <p>بناتي الطالبات، زميلاتي المعلمات، أسرتنا الكريمة؛ يسعدني أن أضع بين أيديكم مجلة «كلنا وطن»، ثمرة جهد مشترك يعكس حبنا لهذه الأرض الطيبة وولاءنا لقيادتنا الرشيدة.</p>
+      <p>إن الوطن ليس مساحة نعيش عليها فحسب، بل هو هوية وقيم ومسؤولية. ومن هنا تحرص مدرستنا على أن تغرس في طالباتها الانتماء الصادق والعمل الجاد، فهنّ بناة المستقبل وحاملات راية الوطن.</p>
+      <div class="quote">كلنا وطن… كلٌّ في موقعه، وكلنا في خدمته.</div>
+      <p>أشكر كل من أسهم في إعداد هذا العدد، وأسأل الله أن يحفظ بلادنا وقيادتنا وأن يديم علينا الأمن والاستقرار.</p>
+    </div>
+  </div>
+</section></div>
+
+<div class="page"><section class="sheet" id="p3b">
+  <h2>كلمة الوكيلة</h2><div class="bar"></div>
+  <div class="word">
+    <div><div class="avatar"><svg viewBox="0 0 100 100" width="84" height="84" aria-label="شعار وطني" fill="none" stroke="#fff3df" stroke-linecap="round" stroke-linejoin="round"><path d="M50 66V40" stroke-width="7"/><path d="M50 40Q34 24 14 34M50 40Q38 14 22 16M50 40Q50 12 50 10M50 40Q62 14 78 16M50 40Q66 24 86 34" stroke-width="4"/><path d="M22 90L76 68M78 90L24 68" stroke-width="4.5"/><path d="M18 92l8-4M82 92l-8-4" stroke="#e6c79a" stroke-width="5"/></svg></div><div class="who">الأستاذة أسماء القحطاني<small>الوكيلة</small></div></div>
+    <div>
+      <p>إن الشراكة بين الأسرة والمدرسة هي الركيزة الأولى في بناء جيل واعٍ؛ فالبيت يغرس القيم، والمدرسة تنميها بالعلم والمعرفة، وحين يتكاملان تنشأ الطالبة واثقة بنفسها ومعتزّة بهويتها.</p>
+      <p>وحب الوطن يبدأ من تفاصيل صغيرة نعلّمها لبناتنا كل يوم: الصدق، والإتقان، واحترام النظام، والاعتزاز باللغة والقيادة والتراث. فلنتعاون جميعًا، أسرةً ومدرسة، على أن نكون لهنّ قدوة صادقة في حب هذا الوطن.</p>
+      <div class="quote">وطني الغالي… نبنيه بالعمل والوفاء.</div>
+      <p>أشكر كل من أسهم في إخراج هذا العدد، وأتمنى للجميع دوام التوفيق والنجاح.</p>
+    </div>
+  </div>
+</section></div>
+
+<div class="page"><section class="sheet" id="p3">
+  <h2>كلمة رائدة الشراكة</h2><div class="bar"></div>
+  <div class="word">
+    <div><div class="avatar"><svg viewBox="0 0 100 100" width="84" height="84" aria-label="شعار وطني" fill="none" stroke="#fff3df" stroke-linecap="round" stroke-linejoin="round"><path d="M50 66V40" stroke-width="7"/><path d="M50 40Q34 24 14 34M50 40Q38 14 22 16M50 40Q50 12 50 10M50 40Q62 14 78 16M50 40Q66 24 86 34" stroke-width="4"/><path d="M22 90L76 68M78 90L24 68" stroke-width="4.5"/><path d="M18 92l8-4M82 92l-8-4" stroke="#e6c79a" stroke-width="5"/></svg></div><div class="who">الأستاذة نورة الشهري<small>رائدة الشراكة</small></div></div>
+    <div>
+      <p>الشراكة المجتمعية جسر يربط المدرسة بمحيطها، ويحوّل القيم التي تتعلمها الطالبة في الصف إلى مبادرات تُرى على أرض الواقع.</p>
+      <p>ومن خلال «كلنا وطن» نؤكد أن بناء الوطن مسؤولية مشتركة بين المدرسة والأسرة والجهات الشريكة، وأن كل مبادرة وكل فعالية هي لبنة في صرح الانتماء والعطاء.</p>
+      <div class="quote">حين تتكاتف الجهود يصبح الأثر أكبر، ويصير الوطن أجمل.</div>
+      <div class="fig"><svg viewBox="0 0 440 240" role="img" aria-label="كنبة كاروهات بجانبها أباجورة وعلم المملكة">
+<defs><pattern id="pl" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#a8744a"/><rect y="9" width="24" height="6" fill="#f3e3c8" opacity=".85"/><rect x="9" width="6" height="24" fill="#f3e3c8" opacity=".85"/><rect x="11.5" width="1" height="24" fill="#fff" opacity=".7"/><rect y="11.5" width="24" height="1" fill="#fff" opacity=".7"/></pattern></defs>
+<rect width="440" height="240" fill="#efe3cd"/><rect y="212" width="440" height="28" fill="#dcc7a1"/>
+<line x1="0" y1="12" x2="440" y2="12" stroke="#b8935a" stroke-width="2"/><g><polygon points="21,12 39,12 30,36" fill="#0d6b36"/><polygon points="61,12 79,12 70,36" fill="#fffaf0" stroke="#b8935a"/><polygon points="101,12 119,12 110,36" fill="#0d6b36"/><polygon points="141,12 159,12 150,36" fill="#fffaf0" stroke="#b8935a"/><polygon points="181,12 199,12 190,36" fill="#0d6b36"/><polygon points="221,12 239,12 230,36" fill="#fffaf0" stroke="#b8935a"/><polygon points="261,12 279,12 270,36" fill="#0d6b36"/></g>
+<ellipse cx="215" cy="226" rx="170" ry="11" fill="#b8935a" opacity=".55"/><ellipse cx="215" cy="226" rx="140" ry="7" fill="#fffaf0" opacity=".5"/>
+<rect x="352" y="184" width="28" height="28" rx="4" fill="#8a5a37"/><path d="M366 184Q350 160 340 140M366 184Q366 150 366 128M366 184Q382 160 392 140" stroke="#0d6b36" stroke-width="6" stroke-linecap="round" fill="none"/>
+<rect x="150" y="28" width="110" height="50" rx="4" fill="#fffaf0" stroke="#b8935a" stroke-width="3"/><text x="205" y="61" text-anchor="middle" font-size="19" font-weight="800" fill="#6b4226" font-family="Tajawal,Tahoma,Arial,sans-serif">وطني الغالي</text>
+<ellipse cx="215" cy="214" rx="140" ry="7" fill="#000" opacity=".12"/>
+<g stroke="#4a2c1a" stroke-width="2"><rect x="120" y="105" width="200" height="60" rx="14" fill="url(#pl)"/><rect x="110" y="150" width="220" height="46" rx="10" fill="url(#pl)"/><rect x="98" y="126" width="34" height="74" rx="14" fill="url(#pl)"/><rect x="298" y="126" width="34" height="74" rx="14" fill="url(#pl)"/><line x1="220" y1="154" x2="220" y2="194"/></g>
+<rect x="116" y="198" width="8" height="14" fill="#4a2c1a"/><rect x="306" y="198" width="8" height="14" fill="#4a2c1a"/>
+<rect x="140" y="114" width="36" height="36" rx="9" fill="#fffdf9" stroke="#b8935a" stroke-width="2" transform="rotate(-8 158 132)"/>
+<circle cx="50" cy="120" r="40" fill="#ffe9b0" opacity=".4"/><rect x="45" y="135" width="10" height="24" fill="#b8935a"/><path d="M33 135L67 135L59 102L41 102Z" fill="#f6dfae" stroke="#b8935a" stroke-width="2"/>
+<rect x="20" y="158" width="60" height="7" rx="2" fill="#6b4226"/><rect x="27" y="165" width="6" height="47" fill="#6b4226"/><rect x="67" y="165" width="6" height="47" fill="#6b4226"/>
+<line x1="412" y1="22" x2="412" y2="212" stroke="#8a5a37" stroke-width="4"/><circle cx="412" cy="20" r="5" fill="#b8935a"/>
+<rect x="304" y="28" width="106" height="62" rx="2" fill="#0d6b36"/>
+<text x="357" y="52" text-anchor="middle" textLength="84" lengthAdjust="spacingAndGlyphs" font-size="10" font-weight="700" fill="#fff" font-family="Tajawal,Tahoma,Arial,sans-serif">لا إله إلا الله محمد رسول الله</text>
+<polygon points="320,73 389,70 389,76" fill="#fff"/><rect x="388" y="66" width="3" height="14" fill="#fff"/><line x1="391" y1="73" x2="400" y2="73" stroke="#fff" stroke-width="3"/>
+</svg></div>
+      <p>نتقدم بالشكر لكل شريك وداعم ولأولياء الأمور، ولطالباتنا اللاتي كنّ دائمًا عنوان المبادرة والإبداع.</p>
+    </div>
+  </div>
+</section></div>
+
+<div class="page"><section class="sheet" id="p4">
+  <h2>ماذا تعني «كلنا وطن»؟</h2><div class="bar"></div>
+  <p>رسالة تؤكد أن الوطن يسكن كل واحد منا، وأن الانتماء يظهر في السلوك اليومي: في إتقان العمل، واحترام النظام، والحفاظ على المكتسبات، والعناية بالبيئة، والاعتزاز باللغة والهوية والتاريخ.</p>
+  <div class="grid" style="margin-top:18px">
+    <div class="c"><i>🌴</i><b>الولاء والانتماء</b><p>حب الوطن والوفاء لقيادته وشعبه.</p></div>
+    <div class="c"><i>📚</i><b>العلم والمعرفة</b><p>التعلم طريق التقدم وصناعة المستقبل.</p></div>
+    <div class="c"><i>🤝</i><b>التكاتف</b><p>العمل بروح الفريق الواحد والمسؤولية المشتركة.</p></div>
+    <div class="c"><i>🌱</i><b>العطاء والتطوع</b><p>مبادرات تخدم المجتمع وتنمّي الإحساس بالآخر.</p></div>
+    <div class="c"><i>🕌</i><b>القيم والهوية</b><p>التمسك بالدين والعادات الأصيلة.</p></div>
+    <div class="c"><i>🚀</i><b>رؤية المملكة 2030</b><p>طموح لا يعرف الحدود ومستقبل مشرق.</p></div>
+  </div>
+</section></div>
+
+<div class="page"><section class="sheet" id="p4b">
+  <h2>معالم بلادي</h2><div class="bar"></div>
+  <svg class="bn" viewBox="0 0 460 140" aria-hidden="true"><defs><linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe3f2"/><stop offset="1" stop-color="#fff3d6"/></linearGradient></defs><rect width="460" height="140" fill="url(#sk)"/><circle cx="410" cy="32" r="20" fill="#ffd868"/><g fill="#fff"><ellipse cx="80" cy="30" rx="26" ry="9"/><ellipse cx="98" cy="25" rx="16" ry="8"/><ellipse cx="270" cy="22" rx="24" ry="8"/></g>
+<polygon points="0,112 50,64 92,102 132,72 178,112" fill="#e0a57a"/><polygon points="120,112 190,58 252,112" fill="#c98a5a"/>
+<rect x="214" y="36" width="30" height="78" rx="6" fill="#3f6b4b"/><path d="M222 58Q229 40 236 58Z" fill="#d9eef7"/><rect x="214" y="36" width="30" height="4" fill="#e8c978"/>
+<rect x="292" y="88" width="64" height="26" fill="#fff3d6" stroke="#b98a5a" stroke-width="1.5"/><path d="M298 88Q324 48 350 88Z" fill="#e8c978" stroke="#b98a5a" stroke-width="1.5"/><rect x="282" y="58" width="8" height="56" fill="#fff3d6" stroke="#b98a5a"/><rect x="358" y="58" width="8" height="56" fill="#fff3d6" stroke="#b98a5a"/><polygon points="282,58 290,58 286,46" fill="#e8c978"/><polygon points="358,58 366,58 362,46" fill="#e8c978"/><circle cx="324" cy="54" r="3" fill="#fff"/>
+<rect x="392" y="86" width="50" height="28" fill="#d9a86a"/><g fill="#d9a86a"><rect x="392" y="80" width="8" height="7"/><rect x="406" y="80" width="8" height="7"/><rect x="420" y="80" width="8" height="7"/><rect x="434" y="80" width="8" height="7"/></g><rect x="410" y="98" width="14" height="16" rx="7" fill="#8a5a37"/>
+<path d="M30 114V76" stroke="#8a5a37" stroke-width="5"/><path d="M30 76Q14 62 2 70M30 76Q20 54 8 52M30 76Q30 48 30 48M30 76Q40 54 52 52M30 76Q46 62 58 70" stroke="#4d9a64" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M0 120Q30 110 60 120T120 120T180 120T240 120T300 120T360 120T420 120T480 120V140H0Z" fill="#8fc7e0"/><path d="M0 130Q30 122 60 130T120 130T180 130T240 130T300 130T360 130T420 130T480 130V140H0Z" fill="#6fb3d4"/><path d="M130 124L160 124L152 134L138 134Z" fill="#f2a88a"/><path d="M145 124V106L158 124Z" fill="#fff"/></svg>
+  <p>وطننا واسع وجميل، من عاصمته في قلب الجزيرة إلى جباله في الجنوب وسواحله في الشرق والغرب. اضغطي على أي منطقة لتتعرفي على أبرز معالمها:</p>
+  <div class="grid">
+    <div class="c"><i>🏙️</i><b>الرياض العاصمة</b><p>الرياض · الدرعية · المصمك</p></div>
+    <div class="c"><i>🕋</i><b>مكة والمدينة وجدة</b><p>مكة · المدينة · جدة</p></div>
+    <div class="c"><i>🌊</i><b>المنطقة الشرقية</b><p>الأحساء · الدمام · الظهران</p></div>
+    <div class="c"><i>⛰️</i><b>عسير وجازان</b><p>أبها · السودة · فرسان</p></div>
+    <div class="c"><i>🏜️</i><b>الشمال</b><p>العلا · حائل · تبوك</p></div>
+  </div>
+</section></div>
+
+<div class="page"><section class="sheet" id="p4c">
+  <h2>أرقام مهمة للوطن</h2><div class="bar"></div>
+  <p>أرقام يجب أن نحفظها جميعًا لأنها قد تنقذ حياة أو تساعدنا وقت الحاجة. وستجدين في آخر الصفحة اختبارًا ممتعًا لتختبري حفظك.</p>
+  <h3 class="sb">☎️ أربعة أرقام يجب أن أحفظها</h3>
+  <div class="nums" id="nums"></div>
+  <div class="tip">💡 <b>حيلة الحفظ:</b> ثلاثة أرقام تنزل واحدًا واحدًا: 999 شرطة · 998 دفاع مدني · 997 إسعاف، ورقم رابع للأمان الأسري: 1919.</div>
+  <div id="facts" hidden></div>
+  <h3 class="sb">🎯 اختبري حفظك</h3>
+  <div class="qzb"><div id="qz"></div><div class="qf"><span id="qs">ابدئي الاختبار</span><button class="b1" id="qn">سؤال جديد ▶</button></div></div>
+</section></div>
+
+<div class="page"><section class="sheet" id="p5">
+  <h2>المكتبة الرقمية</h2><div class="bar"></div>
+  <svg class="bn" viewBox="0 0 460 120" aria-hidden="true"><defs><linearGradient id="lb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6df"/><stop offset="1" stop-color="#ffe3cf"/></linearGradient></defs><rect width="460" height="120" fill="url(#lb)"/>
+<rect x="20" y="60" width="18" height="40" rx="2" fill="#f2a88a"/><rect x="40" y="50" width="16" height="50" rx="2" fill="#8fb8de"/><rect x="58" y="64" width="20" height="36" rx="2" fill="#f6d56e"/><rect x="80" y="46" width="18" height="54" rx="2" fill="#8fc7a6"/><rect x="100" y="58" width="22" height="42" rx="2" fill="#c99a6a"/><rect x="124" y="52" width="16" height="48" rx="2" fill="#e0816a"/><rect x="142" y="62" width="18" height="38" rx="2" fill="#b9a7dd"/>
+<g fill="#fff" opacity=".7"><rect x="20" y="68" width="18" height="2"/><rect x="40" y="58" width="16" height="2"/><rect x="58" y="72" width="20" height="2"/><rect x="80" y="54" width="18" height="2"/><rect x="100" y="66" width="22" height="2"/><rect x="124" y="60" width="16" height="2"/><rect x="142" y="70" width="18" height="2"/></g>
+<circle cx="240" cy="56" r="52" fill="#ffe9a8" opacity=".55"/><rect x="190" y="20" width="100" height="76" rx="9" fill="#4a2c1a"/><rect x="197" y="27" width="86" height="62" rx="4" fill="#fffaf0"/><circle cx="240" cy="58" r="15" fill="#f2a88a"/><polygon points="235,50 235,66 248,58" fill="#fff"/><rect x="206" y="36" width="30" height="5" rx="2" fill="#8fb8de"/><rect x="206" y="76" width="68" height="5" rx="2" fill="#8fc7a6"/>
+<path d="M326 80Q326 42 360 42Q394 42 394 80" fill="none" stroke="#8a5a37" stroke-width="6" stroke-linecap="round"/><rect x="318" y="72" width="16" height="26" rx="6" fill="#f2a88a"/><rect x="386" y="72" width="16" height="26" rx="6" fill="#f2a88a"/><path d="M410 70Q420 85 410 100M420 64Q434 85 420 106" fill="none" stroke="#e8b84a" stroke-width="3" stroke-linecap="round"/>
+<g fill="#e8b84a"><polygon points="170,20 172,26 178,26 173,30 175,36 170,32 165,36 167,30 162,26 168,26"/><polygon points="440,30 441,34 445,34 442,37 443,41 440,38 437,41 438,37 435,34 439,34"/></g><rect y="100" width="460" height="20" fill="#c99a6a"/><rect y="100" width="460" height="3" fill="#e8c978"/></svg>
+  <p>تقدم مدرسة فاطمة بنت الخطاب مكتبة رقمية تجمع المحتوى الوطني والتعليمي في مكان واحد، تتصفحه الطالبات في أي وقت ومن أي مكان:</p>
+  <div class="grid">
+    <div class="c"><i>📖</i><b>الكتب الإلكترونية</b><p>قصص وكتب عن الوطن وتاريخه ومنجزاته.</p></div>
+    <div class="c"><i>🎬</i><b>الفيديوهات التعليمية</b><p>مقاطع قصيرة عن الهوية الوطنية والقيم.</p></div>
+    <div class="c"><i>🎧</i><b>الكتب الصوتية</b><p>قصص ونصوص مسموعة تناسب الجميع.</p></div>
+    <div class="c"><i>🎨</i><b>أوراق العمل</b><p>رسومات تلوين وطنية ممتعة.</p></div>
+    <div class="c"><i>🏆</i><b>المسابقات الإلكترونية</b><p>أسئلة تفاعلية عن الوطن عبر المنصة.</p></div>
+  </div>
+</section></div>
+
+<div class="page"><section class="sheet" id="p6">
+  <h2>كلمات من القلب</h2><div class="bar"></div>
+  <p>عبارات وطنية صادقة تعبّر عن حبنا لوطننا وفخرنا بالانتماء إليه:</p>
+  <div class="pad"><svg class="pt" viewBox="0 0 460 100" aria-hidden="true"><defs><linearGradient id="vg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff6df"/><stop offset=".6" stop-color="#f8e6c0"/><stop offset="1" stop-color="#f1d9a6"/></linearGradient></defs><rect width="460" height="100" fill="url(#vg)"/>
+<text x="230" y="44" text-anchor="middle" font-size="27" font-weight="800" fill="#6b4226" font-family="Tajawal,Tahoma,Arial,sans-serif">كلمات من القلب</text><text x="230" y="68" text-anchor="middle" font-size="14" fill="#8a6a3a" font-family="Tajawal,Tahoma,Arial,sans-serif">عن وطني الغالي</text>
+<g transform="translate(34 14) rotate(35 30 30)"><rect x="-8" y="25" width="8" height="12" fill="#c98a7a"/><rect y="25" width="60" height="12" fill="#e6c79a"/><polygon points="60,25 76,31 60,37" fill="#fffaf0"/><polygon points="71,29 76,31 71,33" fill="#4a2c1a"/></g>
+<path d="M416 90V58" stroke="#b98a5a" stroke-width="5" stroke-linecap="round"/><path d="M416 58Q400 44 382 52M416 58Q404 34 390 32M416 58Q416 26 416 26M416 58Q428 34 442 32M416 58Q432 44 450 52" stroke="#b98a5a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<g fill="#e8b84a"><polygon points="300,78 301,82 305,82 302,85 303,89 300,86 297,89 298,85 295,82 299,82"/></g>
+<path d="M0 100L0 90Q115 76 230 90T460 90L460 100Z" style="fill:var(--card)"/></svg>
+<div class="wall" id="wall"></div></div>
+</section></div>
+
+<div class="page"><section class="sheet msgw" id="p6b">
+  <h2>اكتبي رسالتك</h2><div class="bar"></div>
+  <svg class="mp" viewBox="0 0 460 130" aria-hidden="true"><defs><linearGradient id="mpg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff8e8"/><stop offset="1" stop-color="#f1deb8"/></linearGradient></defs><rect width="460" height="130" fill="url(#mpg)"/><circle cx="230" cy="62" r="52" fill="#ffe9a8" opacity=".5"/>
+<rect x="24" y="106" width="84" height="12" rx="2" fill="#b98a5a"/><rect x="30" y="94" width="72" height="12" rx="2" fill="#8fc7a6"/><rect x="36" y="82" width="62" height="12" rx="2" fill="#f2a88a"/><rect x="42" y="70" width="52" height="12" rx="2" fill="#fff3d6" stroke="#b98a5a"/><g fill="#fff" opacity=".75"><rect x="30" y="110" width="70" height="2"/><rect x="36" y="98" width="58" height="2"/><rect x="42" y="86" width="48" height="2"/></g>
+<rect x="132" y="98" width="30" height="20" rx="5" fill="#2f5039"/><rect x="142" y="91" width="10" height="8" fill="#d9b56a"/><path d="M147 91Q146 70 170 52Q168 74 150 91Z" fill="#fff" stroke="#b98a5a" stroke-width="1.5"/>
+<rect x="196" y="88" width="40" height="30" rx="4" fill="#c99a6a"/><rect x="196" y="98" width="40" height="3" fill="#fff" opacity=".6"/>
+<g transform="translate(206 90) rotate(-16)"><rect x="-3" y="-44" width="6" height="44" fill="#f6d56e"/><polygon points="-3,-44 3,-44 0,-52" fill="#f3d9b0"/><polygon points="-1,-49 1,-49 0,-52" fill="#4a2c1a"/></g><g transform="translate(216 90)"><rect x="-3" y="-50" width="6" height="50" fill="#8fb8de"/><polygon points="-3,-50 3,-50 0,-58" fill="#f3d9b0"/><polygon points="-1,-55 1,-55 0,-58" fill="#4a2c1a"/></g><g transform="translate(226 90) rotate(16)"><rect x="-3" y="-44" width="6" height="44" fill="#f2a88a"/><polygon points="-3,-44 3,-44 0,-52" fill="#f3d9b0"/><polygon points="-1,-49 1,-49 0,-52" fill="#4a2c1a"/></g>
+<rect x="312" y="54" width="56" height="34" rx="2" fill="#fffdf6" stroke="#e0c8a0"/><rect x="300" y="70" width="80" height="50" rx="4" fill="#fff" stroke="#b98a5a" stroke-width="2"/><polygon points="300,70 340,98 380,70" fill="#f6ead0" stroke="#b98a5a" stroke-width="2"/><circle cx="340" cy="98" r="8" fill="#e0816a"/>
+<g transform="translate(412 12) rotate(30)"><rect width="11" height="58" rx="5" fill="#4a2c1a"/><rect y="40" width="11" height="4" fill="#d9b56a"/><polygon points="0,58 11,58 5.5,78" fill="#d9b56a"/></g>
+<g fill="#e8b84a"><polygon points="270,24 272,30 278,30 273,34 275,40 270,36 265,40 267,34 262,30 268,30"/><polygon points="120,30 121,34 125,34 122,37 123,41 120,38 117,41 118,37 115,34 119,34"/><polygon points="440,92 441,96 445,96 442,99 443,103 440,100 437,103 438,99 435,96 439,96"/></g></svg>
+  <p>اختاري الجهة التي تودين توجيه رسالتك إليها، ثم اكتبي ما في قلبك:</p>
+  <div class="to" id="to"></div>
+  <input id="nm" placeholder="الاسم (اختياري)" maxlength="60">
+  <textarea id="msg" class="lined" rows="5" placeholder="اكتبي رسالتك هنا…" maxlength="700"></textarea>
+  <div class="row"><button class="b2" id="sug">اقتراح صياغة</button><button class="b1" id="mk">إنشاء البطاقة</button></div>
+  <div id="out" class="letter" hidden></div>
+  <div class="row" id="acts" hidden><button class="b1" id="cp">نسخ الرسالة</button><button class="b2" id="sh">مشاركة</button><span id="ok" class="ok"></span></div>
+</section></div>
+
+<div class="page"><section class="sheet end fin" id="p7"><svg class="shelf" viewBox="0 0 600 140" aria-hidden="true"><g id="bk"></g><circle cx="300" cy="72" r="48" fill="#e8c978" opacity=".18"/><path d="M300 126Q272 114 252 120L252 94Q274 88 300 100Z" fill="#efe1c6" stroke="#b98a5a" stroke-width="2"/><path d="M300 126Q328 114 348 120L348 94Q326 88 300 100Z" fill="#efe1c6" stroke="#b98a5a" stroke-width="2"/><path d="M300 100V52" stroke="#d9b56a" stroke-width="5" stroke-linecap="round"/><path d="M300 52Q282 36 262 46M300 52Q286 26 270 24M300 52Q300 18 300 18M300 52Q314 26 330 24M300 52Q318 36 338 46" stroke="#e8c978" stroke-width="3.5" stroke-linecap="round" fill="none"/><g fill="#e8c978"><polygon points="60,34 62,40 68,40 63,44 65,50 60,46 55,50 57,44 52,40 58,40"/><polygon points="540,30 542,36 548,36 543,40 545,46 540,42 535,46 537,40 532,36 538,36"/><polygon points="170,14 171,18 175,18 172,21 173,25 170,22 167,25 168,21 165,18 169,18"/><polygon points="430,16 431,20 435,20 432,23 433,27 430,24 427,27 428,23 425,20 429,20"/></g><rect y="128" width="600" height="12" fill="#5a3820"/><rect y="128" width="600" height="2" fill="#d9b56a"/></svg>
+  <h2>خاتمة العدد</h2><div class="bar" style="margin-inline:auto"></div>
+  <div class="big">كلنا وطن · وطني الغالي</div>
+  <p>شكرًا لكل من شارك وأبدع وأسهم في إخراج هذا العدد.<br>حفظ الله وطننا وقيادتنا وشعبنا.</p>
+  <div class="plaque">مدرسة فاطمة بنت الخطاب</div>
+  <div class="names"><div class="nm"><small>مديرة المدرسة</small><b>الأستاذة نوف الأسمري</b></div><div class="nm"><small>الوكيلة</small><b>الأستاذة أسماء القحطاني</b></div><div class="nm"><small>إعداد رائدة الشراكة</small><b>الأستاذة نورة الشهري</b></div></div>
+</section></div>
+
+<div class="md" id="md"><div class="mb"><svg class="mh" viewBox="0 0 460 150" aria-hidden="true"><defs><linearGradient id="mg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#707c40"/><stop offset=".55" stop-color="#56612f"/><stop offset="1" stop-color="#4a2c1a"/></linearGradient></defs>
+<rect width="460" height="150" fill="url(#mg)"/>
+<circle cx="60" cy="45" r="42" fill="none" stroke="#ecd3a8" stroke-opacity=".25" stroke-width="2"/><circle cx="410" cy="110" r="52" fill="none" stroke="#ecd3a8" stroke-opacity=".25" stroke-width="2"/><circle cx="230" cy="78" r="52" fill="#ffe9b0" opacity=".18"/>
+<path d="M0 8Q230 60 460 8" fill="none" stroke="#e6c79a" stroke-width="2"/>
+<g><polygon points="38,13 54,13 46,33" fill="#0d6b36"/><polygon points="84,19 100,19 92,39" fill="#fffaf0"/><polygon points="130,24 146,24 138,44" fill="#0d6b36"/><polygon points="176,28 192,28 184,48" fill="#fffaf0"/><polygon points="222,30 238,30 230,50" fill="#0d6b36"/><polygon points="268,28 284,28 276,48" fill="#fffaf0"/><polygon points="314,24 330,24 322,44" fill="#0d6b36"/><polygon points="360,19 376,19 368,39" fill="#fffaf0"/><polygon points="406,13 422,13 414,33" fill="#0d6b36"/></g>
+<g fill="#e6c79a"><polygon points="30,80 33,88 41,88 35,93 37,101 30,96 23,101 25,93 19,88 27,88"/><polygon points="425,56 427,62 433,62 428,66 430,72 425,68 420,72 422,66 417,62 423,62"/><polygon points="330,64 332,68 336,68 333,71 334,75 330,72 326,75 327,71 324,68 328,68"/></g>
+<g fill="none" stroke="#a3b063" stroke-width="3" stroke-linecap="round"><path d="M8 114Q30 82 58 56"/><path d="M452 122Q432 94 410 70"/></g><g fill="#a3b063"><ellipse cx="17" cy="98" rx="10" ry="4" transform="rotate(-60 17 98)"/><ellipse cx="30" cy="90" rx="10" ry="4" transform="rotate(20 30 90)"/><ellipse cx="36" cy="76" rx="10" ry="4" transform="rotate(-60 36 76)"/><ellipse cx="50" cy="68" rx="10" ry="4" transform="rotate(20 50 68)"/><ellipse cx="443" cy="108" rx="10" ry="4" transform="rotate(60 443 108)"/><ellipse cx="430" cy="100" rx="10" ry="4" transform="rotate(-20 430 100)"/><ellipse cx="424" cy="86" rx="10" ry="4" transform="rotate(60 424 86)"/><ellipse cx="414" cy="76" rx="10" ry="4" transform="rotate(-20 414 76)"/></g>
+<rect x="62" y="118" width="64" height="10" rx="2" fill="#fffaf0"/><rect x="68" y="108" width="54" height="10" rx="2" fill="#b8935a"/><rect x="72" y="98" width="46" height="10" rx="2" fill="#a8744a" stroke="#ecd3a8" stroke-opacity=".5"/>
+<rect x="360" y="108" width="24" height="22" rx="3" fill="#b8935a"/><path d="M372 108Q358 92 350 80M372 108Q372 84 372 70M372 108Q386 92 394 80" stroke="#0d6b36" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M230 124Q190 110 148 118L148 86Q190 78 230 92Z" fill="#fffaf0" stroke="#b8935a" stroke-width="2"/><path d="M230 124Q270 110 312 118L312 86Q270 78 230 92Z" fill="#fffaf0" stroke="#b8935a" stroke-width="2"/>
+<g stroke="#c9ae84" stroke-width="1.5"><path d="M160 96Q192 90 220 100M160 104Q192 98 220 108M240 100Q268 90 300 96M240 108Q268 98 300 104"/></g>
+<path d="M230 92V60" stroke="#ecd3a8" stroke-width="5" stroke-linecap="round"/><path d="M230 60Q214 46 196 54M230 60Q218 36 204 34M230 60Q230 28 230 28M230 60Q242 36 256 34M230 60Q246 46 264 54" stroke="#ecd3a8" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<path d="M0 150L0 138Q115 120 230 138T460 138L460 150Z" style="fill:var(--card)"/></svg><button class="x" aria-label="إغلاق">×</button><div id="mi"></div><h3 id="mt"></h3><p id="mp"></p><div class="bk" id="mc"></div><div class="ex" id="mx">🔗 مساحة لإضافة الرابط أو الملف الخاص بهذا القسم</div></div></div>
+<button id="up" aria-label="للأعلى">↑</button>
+<div class="credit"><small>✦ فكرة وإعداد وتنفيذ ✦</small><b>الأستاذة نورة الشهري</b><span>رائدة الشراكة · مدرسة فاطمة بنت الخطاب</span></div>
+<footer>❖ مجلة «كلنا وطن» الإلكترونية ❖<br><b>مدرسة فاطمة بنت الخطاب</b> · وطني الغالي</footer>
+
+<script>
+var items=[["الغلاف","p0"],["المحتويات","p1"],["كلمة المديرة","p2"],["كلمة الوكيلة","p3b"],["كلمة الشراكة","p3"],["كلنا وطن","p4"],["معالم بلادي","p4b"],["أرقام مهمة","p4c"],["المكتبة الرقمية","p5"],["كلمات من القلب","p6"],["اكتبي رسالتك","p6b"],["الخاتمة","p7"]];
+function go(id){var e=document.getElementById(id);if(e)e.scrollIntoView({behavior:"smooth"})}
+var n=document.getElementById("nav"),t=document.getElementById("toc");
+items.forEach(function(it,i){
+ var b=document.createElement("button");b.textContent=it[0];b.onclick=function(){go(it[1])};n.appendChild(b);
+ if(i>1){var l=document.createElement("li");l.innerHTML="<span class=\"no\">"+(i-1)+"</span><span class=\"tt\">"+it[0]+"</span>";l.onclick=function(){go(it[1])};t.appendChild(l)}
+});
+var R=[["الوطن","إلى وطني الغالي","يا وطني، أنت الأمان والفخر والهوية. أعدك أن أكون طالبة مجتهدة، وأن أحافظ على مكتسباتك، وأن أخدمك بعلمي وسلوكي كل يوم. حفظك الله وحفظ قيادتك وشعبك."],["أمن الدولة","إلى رجال أمن الدولة","شكرًا لكم على سهركم الدائم وتضحياتكم التي نعيش بسببها آمنين مطمئنين. أنتم عيون الوطن وحماته، نسأل الله أن يحفظكم ويسدد خطاكم ويجزيكم خير الجزاء."],["العاملين في التعليم","إلى العاملين في التعليم","شكرًا لكم يا من تصنعون المستقبل بالعلم والصبر والإخلاص، وتواصلون العطاء كل يوم. كل الاحترام والتقدير لمعلماتنا وإدارتنا وكل من يقف خلف رحلتنا التعليمية."]];
+var cur=0,ob=document.getElementById("to"),msg=document.getElementById("msg"),nm=document.getElementById("nm"),out=document.getElementById("out"),acts=document.getElementById("acts"),ok=document.getElementById("ok"),full="";
+R.forEach(function(r,i){var b=document.createElement("button");b.textContent=r[0];b.onclick=function(){cur=i;draw()};ob.appendChild(b)});
+function draw(){[].forEach.call(ob.children,function(b,i){b.className=i==cur?"on":""})}draw();
+document.getElementById("sug").onclick=function(){msg.value=R[cur][2]};
+document.getElementById("mk").onclick=function(){
+ var t=msg.value.trim();if(!t){msg.focus();return}
+ var n=nm.value.trim();out.textContent="";
+ var h=document.createElement("h3");h.textContent=R[cur][1];
+ var p=document.createElement("p");p.textContent=t;out.appendChild(h);out.appendChild(p);
+ if(n){var d=document.createElement("div");d.className="by";d.textContent="— "+n;out.appendChild(d)}
+ var s=document.createElement("small");s.textContent="مدرسة فاطمة بنت الخطاب · كلنا وطن";out.appendChild(s);
+ full=R[cur][1]+"\n\n"+t+(n?"\n\n— "+n:"")+"\n\nمدرسة فاطمة بنت الخطاب · كلنا وطن";
+ out.hidden=false;acts.hidden=false;ok.textContent="";out.scrollIntoView({behavior:"smooth",block:"nearest"})};
+function say(m){ok.textContent=m}
+document.getElementById("cp").onclick=function(){
+ try{navigator.clipboard.writeText(full).then(function(){say("تم النسخ ✓")},fb)}catch(e){fb()}
+ function fb(){var a=document.createElement("textarea");a.value=full;document.body.appendChild(a);a.select();try{document.execCommand("copy");say("تم النسخ ✓")}catch(e){say("تعذّر النسخ")}document.body.removeChild(a)}};
+document.getElementById("sh").onclick=function(){
+ if(navigator.share){navigator.share({text:full}).catch(function(){})}else{say("المشاركة غير متاحة، استخدمي النسخ")}};
+var md=document.getElementById("md");
+var LIB={"الكتب الإلكترونية":[["📗","النخلة الصغيرة","للصغار","في حديقة المدرسة نبتت نخلة صغيرة، وكانت تسأل: «متى أكبر مثل النخيل الطويل؟» ابتسمت المعلمة وقالت: «بالماء والصبر والحب تكبري». وكانت الطالبات يسقينها كل صباح، فكبرت وكبرت حتى صارت تظلل صديقاتها. وفهمت النخلة أن الوطن يكبر بمن يعتني به."],["📘","سلمى والعلم الأخضر","للصغار","رأت سلمى علم بلادها يرفرف فوق المدرسة فسألت جدها: «لماذا هو أخضر؟» قال الجد: «الأخضر لون الخير والنماء، وفيه كلمة التوحيد التي تجمعنا». ركضت سلمى ورسمت علمًا في دفترها وكتبت تحته: «سأكون خيرًا لوطني»."],["📕","رسالة من جدي","للكبار","كتب الجد لحفيده: «حين كنت صغيرًا كانت المدرسة بسيطة والإمكانات قليلة، واليوم ترى مدارس حديثة وأجهزة ذكية. لا تنسَ يا بني أن هذه النعم صنعها الصبر والإخلاص، فأتقن عملك أيًّا كان، وكن أمينًا، فالوطن يُبنى بالأيدي الصادقة»."],["📙","معلمة القرية","للكبار","في صباح بارد وصلت المعلمة إلى مدرستها الصغيرة وفي يدها حقيبة ودفاتر. لم تكن الطالبات كثيرات، لكنها قالت: «كل فتاة تتعلم تضيء بيتًا». وبعد سنوات صارت إحدى طالباتها طبيبة وأخرى مهندسة، وجاءتا تشكرانها وتقولان: «بدأ نجاحنا من هنا». فابتسمت، لأن الوطن ينهض بالعلم."]],
+"الفيديوهات التعليمية":[["🎬","قصة الوطن في دقيقة","للجميع","مقطع قصير يعرّف بالوطن ورموزه بأسلوب مبسط."],["🎬","معالم بلادي","للصغار","جولة مصوّرة على أبرز الأماكن الجميلة."],["🎬","قيم نحبها","للكبار","مواقف قصيرة عن الأمانة والعطاء والاحترام."]],
+"العروض التقديمية":[["📊","رموز الوطن","للجميع","عرض عن العلم والنخلة والسيفين ومعانيها."],["📊","مدينتي وبلدي","للصغار","عرض تعرّف فيه الطالبة بمدينتها."],["📊","شكرًا لأبطال التعليم","للكبار","عرض تكريم للمعلمات والإداريات."]],
+"أوراق العمل":[["📝","لوّني العلم","للصغار","نشاط تلوين ممتع للعلم والنخلة."],["📝","أكملي الجملة","للجميع","جمل ناقصة عن حب الوطن تكملها الطالبة."],["📝","اكتبي رسالتك","للكبار","تمرين كتابي قصير عن ما نحبه في وطننا."]],
+"المسابقات الإلكترونية":[["🏆","صح أو خطأ","للصغار","أسئلة سهلة عن الوطن ورموزه."],["🏆","من أنا؟","للجميع","تخمين معلم أو مكان وطني من خلال التلميحات."],["🏆","لغز الكلمات","للكبار","كلمات متقاطعة عن تاريخ المملكة وقيمها."]]};
+LIB["المسابقات الإلكترونية"]=[["✅","صح أو خطأ","للجميع","اقرأي العبارة وفكري فيها، ثم افتحي الإجابة.",{l:"الإجابة",q:[["عاصمة المملكة العربية السعودية هي الرياض.","صح ✓"],["لون علم المملكة أزرق.","خطأ ✗ — لونه أخضر."],["شعار المملكة فيه نخلة وسيفان متقاطعان.","صح ✓"],["الملك عبدالعزيز هو موحّد المملكة ومؤسسها.","صح ✓"],["يوم الوطن السعودي يوافق الثاني والعشرين من سبتمبر.","خطأ ✗ — الصحيح الثالث والعشرون من سبتمبر."],["المملكة تضم الحرمين الشريفين في مكة المكرمة والمدينة المنورة.","صح ✓"],["أُطلقت رؤية المملكة 2030 في عام 2016م.","صح ✓"],["البحر الأحمر يقع في غرب المملكة.","صح ✓"]]}],["🧩","ألغاز وطنية","للجميع","حاولي الحل أولًا، والاطلاع على الحل اختياري.",{l:"الحل (اختياري)",q:[["أرفرف فوق المدارس والمباني، لوني أخضر وعليّ كلمة التوحيد، من أنا؟","العلم."],["شجرة طويلة تعطي التمر الحلو، وهي في شعار بلادي، ما هي؟","النخلة."],["أحمل الحروف والأرقام، وأسكن في حقيبتك، ومني تتعلمين، ما أنا؟","الكتاب."],["مدينة فيها الكعبة المشرفة، يقصدها الملايين، ما اسمها؟","مكة المكرمة."]]}],["👆","بصمتك","للجميع","اتركي أثرًا جميلًا: ما بصمتك في حب الوطن؟","stamp"]];
+LIB["الرياض العاصمة"]=[["🏙️","الرياض","العاصمة","عاصمة المملكة وأكبر مدنها، وقلبها السياسي والاقتصادي النابض."],["🏢","برج المملكة","الرياض","ناطحة سحاب معروفة بفتحتها العلوية، وتُعد من أشهر معالم العاصمة."],["🏯","قصر المصمك","الرياض","حصن تاريخي ارتبط باسترداد الرياض على يد الملك عبدالعزيز عام 1902م."],["🏺","الدرعية (حي الطريف)","الرياض","موطن الدولة السعودية الأولى، ومدرج ضمن قائمة التراث العالمي لليونسكو."]];
+LIB["مكة والمدينة وجدة"]=[["🕋","مكة المكرمة","","فيها المسجد الحرام والكعبة المشرفة، وهي قبلة المسلمين."],["🕌","المدينة المنورة","","فيها المسجد النبوي الشريف، ويقصدها الزوار من كل مكان."],["🏘️","جدة التاريخية (البلد)","","حي تراثي بمبانٍ قديمة، ومدرج ضمن قائمة التراث العالمي."],["⛲","نافورة الملك فهد","جدة","من أعلى النوافير في العالم، وتزين كورنيش جدة على البحر الأحمر."]];
+LIB["المنطقة الشرقية"]=[["🌴","واحة الأحساء","الأحساء","من أكبر واحات النخيل في العالم، ومدرجة ضمن قائمة التراث العالمي."],["🌅","كورنيش الخبر والدمام","الشرقية","واجهات بحرية جميلة على الخليج العربي."],["📚","مركز إثراء","الظهران","مركز ثقافي ومعرفي للإبداع والتعلم والفنون."]];
+LIB["عسير وجازان"]=[["☁️","أبها","عسير","مدينة أجواؤها معتدلة وجبالها يكسوها الضباب."],["⛰️","جبل السودة","عسير","من أعلى قمم المملكة، ويُعرف بمناظره الخلابة."],["🏘️","رجال ألمع","عسير","قرية تراثية بمبانٍ حجرية وألوان زاهية."],["🏝️","جزر فرسان","جازان","أرخبيل جميل في البحر الأحمر."]];
+LIB["الشمال"]=[["🪨","العلا (الحِجر)","","أول موقع سعودي أُدرج في قائمة التراث العالمي لليونسكو."],["⛰️","جبال أجا وسلمى","حائل","جبال شهيرة تُعرف بتراثها وكرم أهلها."],["🏰","قلعة تبوك","تبوك","قلعة تاريخية في قلب مدينة تبوك."]];
+LIB["الكتب الصوتية"]=[["🎧","قصص مسموعة للصغار","للصغار","حكايات قصيرة بصوت هادئ تعلّم القيم وتغرس حب الوطن."],["🎙️","نصوص وطنية بصوت الطالبات","للجميع","تسجيلات صوتية قصيرة تقرأ فيها الطالبات كلماتهن عن الوطن."],["📖","ملخصات كتب مسموعة","للكبار","ملخصات قصيرة لكتب مفيدة يمكن الاستماع لها في أي وقت."]];
+var YT="https://www.youtube.com/results?search_query=";
+var PAL=["#e0816a","#f2a88a","#f6d56e","#8fc7a6","#4d9a64","#8fb8de","#b9a7dd","#c99a6a","#6b4226","#ffffff"],
+COL={palm:`<rect class="rg" x="4" y="4" width="292" height="232" rx="10"/><circle class="rg" cx="240" cy="50" r="26"/><path class="rg" d="M40 70Q40 54 58 54Q64 40 82 48Q100 44 104 62Q118 64 114 78L44 78Q36 78 40 70Z"/><path class="rg" d="M4 192Q80 172 150 188T296 182V230Q296 236 290 236H10Q4 236 4 230Z"/><path class="rg" d="M142 190Q136 150 150 112L162 112Q156 150 166 190Z"/><path class="rg" d="M156 112Q110 72 60 98Q104 86 156 118Z"/><path class="rg" d="M156 112Q120 52 82 58Q124 64 156 114Z"/><path class="rg" d="M156 112Q150 58 156 38Q168 62 160 114Z"/><path class="rg" d="M156 112Q192 52 230 58Q188 64 156 114Z"/><path class="rg" d="M156 112Q202 72 252 98Q208 86 156 118Z"/><circle class="rg" cx="148" cy="124" r="6"/><circle class="rg" cx="158" cy="128" r="6"/><circle class="rg" cx="168" cy="124" r="6"/>`,
+dallah:`<rect class="rg" x="4" y="4" width="292" height="232" rx="10"/><path class="rg" d="M86 200Q70 160 108 136L138 136Q176 160 160 200Z"/><path class="rg" d="M108 136L112 100L134 100L138 136Z"/><path class="rg" d="M108 100Q123 80 138 100Z"/><circle class="rg" cx="123" cy="76" r="6"/><path class="rg" d="M160 172Q200 150 214 108L224 112Q212 168 162 192Z"/><path class="rg" d="M90 150Q42 150 48 186Q52 196 82 190L84 180Q62 184 62 176Q60 160 90 160Z"/><rect class="rg" x="82" y="200" width="82" height="10" rx="3"/><path class="rg" d="M123 150L133 163L123 176L113 163Z"/><path class="rg" d="M214 212Q214 190 240 190Q266 190 266 212Z"/><ellipse class="rg" cx="240" cy="214" rx="36" ry="7"/>`,
+fort:`<rect class="rg" x="4" y="4" width="292" height="232" rx="10"/><circle class="rg" cx="246" cy="46" r="24"/><rect class="rg" x="4" y="190" width="292" height="46"/><rect class="rg" x="70" y="130" width="160" height="60"/><rect class="rg" x="44" y="100" width="44" height="90"/><rect class="rg" x="212" y="100" width="44" height="90"/><rect class="rg" x="44" y="90" width="12" height="10"/><rect class="rg" x="59" y="90" width="12" height="10"/><rect class="rg" x="74" y="90" width="14" height="10"/><rect class="rg" x="212" y="90" width="12" height="10"/><rect class="rg" x="227" y="90" width="12" height="10"/><rect class="rg" x="242" y="90" width="14" height="10"/><path class="rg" d="M138 190V162Q138 148 150 148Q162 148 162 162V190Z"/><path class="rg" d="M58 134V122Q66 112 74 122V134Z"/><path class="rg" d="M226 134V122Q234 112 242 122V134Z"/><path class="rg" d="M96 140L108 154L120 140Z"/><path class="rg" d="M180 140L192 154L204 140Z"/>`,
+book:`<rect class="rg" x="4" y="4" width="292" height="232" rx="10"/><rect class="rg" x="120" y="40" width="60" height="60"/><rect class="rg" x="120" y="40" width="60" height="60" transform="rotate(45 150 70)"/><circle class="rg" cx="150" cy="70" r="13"/><path class="rg" d="M150 200Q100 184 50 194L50 140Q100 130 150 146Z"/><path class="rg" d="M150 200Q200 184 250 194L250 140Q200 130 150 146Z"/><path class="rg" d="M44 196Q100 186 150 204Q200 186 256 196L256 206Q200 198 150 214Q100 198 44 206Z"/><circle class="rg" cx="52" cy="56" r="10"/><circle class="rg" cx="248" cy="56" r="10"/><circle class="rg" cx="84" cy="104" r="7"/><circle class="rg" cx="216" cy="104" r="7"/>`};
+LIB["أوراق العمل"]=[["🎨","لوّني النخلة","للصغار","اختاري لونًا ثم المسي أي جزء لتلوينه.",{c:"palm"}],["☕","لوّني دلة القهوة والفنجان","للجميع","من رموز الكرم في مجتمعنا.",{c:"dallah"}],["🏰","لوّني القلعة التراثية","للجميع","قلعة بأبراج ومثلثات تشبه النقوش النجدية.",{c:"fort"}],["📖","لوّني الكتاب والنجمة","للجميع","نجمة المعرفة تشعّ من كتاب مفتوح.",{c:"book"}]];
+LIB["الكتب الصوتية"]=LIB["الكتب الإلكترونية"].map(function(x){return["🎧",x[1],x[2],"اضغطي «استمعي» لتسمعي القصة بصوت القارئ الآلي في جهازك.",{a:x[1]+". "+x[3]}]});
+function sp(t,st){if(!("speechSynthesis" in window)){st.textContent="جهازك لا يدعم القراءة الصوتية.";return}speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(t);u.lang="ar-SA";u.rate=.9;var v=speechSynthesis.getVoices().filter(function(x){return x.lang&&x.lang.indexOf("ar")==0})[0];if(v)u.voice=v;u.onstart=function(){st.textContent="🔊 جاري القراءة…"};u.onend=function(){st.textContent="✓ انتهت القصة"};u.onerror=function(){st.textContent="تعذّرت القراءة على هذا الجهاز."};speechSynthesis.speak(u)}
+LIB["الفيديوهات التعليمية"]=[["💚","حب الوطن","وطن","مقاطع قصيرة تعزز الانتماء للأطفال.",{u:YT+encodeURIComponent("فيديو قصير عن حب الوطن للأطفال")}],["🌴","اليوم الوطني للأطفال","وطن","تعرّف بالمناسبة ومعانيها.",{u:YT+encodeURIComponent("اليوم الوطني السعودي للأطفال فيديو تعليمي")}],["📚","أهمية التعليم","تعليم","تحفيز للاجتهاد والمثابرة.",{u:YT+encodeURIComponent("فيديو قصير عن أهمية التعليم للأطفال")}],["🎒","نصائح للمذاكرة بتركيز","تعليم","طرق للتركيز وتنظيم الوقت أثناء المذاكرة.",{u:YT+encodeURIComponent("نصائح للمذاكرة وتنظيم الوقت للطالبات")}],["🍎","الغذاء الصحي","صحة","ماذا نأكل لننمو بصحة جيدة.",{u:YT+encodeURIComponent("الغذاء الصحي للأطفال فيديو تعليمي")}],["🧼","غسل اليدين والنظافة","صحة","عادات بسيطة تحمينا من المرض.",{u:YT+encodeURIComponent("غسل اليدين للأطفال فيديو")}],["🏃","الرياضة والنوم الصحي","صحة","نشاط وراحة لجسم قوي.",{u:YT+encodeURIComponent("أهمية الرياضة والنوم للأطفال فيديو")}]];
+function extra(d,e){
+if(e&&e.c){var w=document.createElement("div"),pal=document.createElement("div"),cur="#f2a88a",s=mk("svg",{viewBox:"0 0 300 240","class":"cs"}),rb=document.createElement("button");w.className="cl";pal.className="pal";
+PAL.forEach(function(c,i){var b=document.createElement("button");b.style.background=c;b.setAttribute("aria-label","لون");if(i==1)b.className="on";b.onclick=function(){cur=c;[].forEach.call(pal.children,function(x){x.className=""});b.className="on"};pal.appendChild(b)});
+s.innerHTML=COL[e.c];s.onclick=function(ev){var t=ev.target;if(t.classList&&t.classList.contains("rg"))t.style.fill=cur};
+rb.className="b2";rb.textContent="↺ ابدئي من جديد";rb.onclick=function(){[].forEach.call(s.querySelectorAll(".rg"),function(x){x.style.fill=""})};
+w.appendChild(pal);w.appendChild(s);w.appendChild(rb);d.appendChild(w);return}
+if(e&&e.a){var w=document.createElement("div"),st=document.createElement("small"),ps=0;w.className="pl";[["▶ استمعي",function(){ps=0;sp(e.a,st)}],["⏯ إيقاف مؤقت / متابعة",function(){if(!("speechSynthesis" in window))return;if(speechSynthesis.paused)speechSynthesis.resume();else speechSynthesis.pause()}],["⏹ إنهاء",function(){if("speechSynthesis" in window)speechSynthesis.cancel();st.textContent=""}]].forEach(function(b){var k=document.createElement("button");k.className="b1 pb";k.textContent=b[0];k.onclick=b[1];w.appendChild(k)});w.appendChild(st);d.appendChild(w);return}
+if(e&&e.u){var a=document.createElement("a");a.href=e.u;a.target="_blank";a.rel="noopener";a.className="b1 lk";a.textContent="▶ ابحثي عن الفيديو وشاهديه";d.appendChild(a);return}
+if(e=="stamp"){var i=document.createElement("input");i.placeholder="اكتبي بصمتك: كيف ستخدمين وطنك؟";i.maxLength=120;var b=document.createElement("button");b.className="b1";b.textContent="👆 ضعي بصمتك";var o=document.createElement("div");o.className="stamp";b.onclick=function(){var v=i.value.trim();if(v)o.textContent="👆 بصمتي: "+v};d.appendChild(i);d.appendChild(b);d.appendChild(o);return}
+e.q.forEach(function(r,n){var w=document.createElement("div"),t=document.createElement("b"),k=document.createElement("details"),s=document.createElement("summary"),a=document.createElement("p");w.className="qq";t.textContent=(n+1)+". "+r[0];s.textContent=e.l;a.textContent=r[1];k.appendChild(s);k.appendChild(a);w.appendChild(t);w.appendChild(k);d.appendChild(w)})}
+function fill(t){var m=document.getElementById("mc");m.textContent="";(LIB[t]||[]).forEach(function(x){var d=document.createElement("details"),s=document.createElement("summary"),p=document.createElement("p");s.textContent=x[0]+" "+x[1]+(x[2]?" · "+x[2]:"");p.textContent=x[3];d.appendChild(s);d.appendChild(p);if(x[4])extra(d,x[4]);m.appendChild(d)});if(LIB[t])document.getElementById("mx").hidden=true}
+[].forEach.call(document.querySelectorAll(".c"),function(c){c.onclick=function(){var i=c.querySelector("i");document.getElementById("mi").textContent=i?i.textContent:"";document.getElementById("mt").textContent=c.querySelector("b").textContent;document.getElementById("mp").textContent=c.querySelector("p").textContent;document.getElementById("mx").hidden=!c.closest("#p5");fill(c.querySelector("b").textContent);md.classList.add("on")}});
+md.onclick=function(e){if(e.target==md||e.target.className=="x")md.classList.remove("on")};
+document.addEventListener("keydown",function(e){if(e.key=="Escape")md.classList.remove("on")});
+var EM=["🌴","✏️","🌟","📗","💚"],WORDS=["وطني… أول حرف أحببته، وآخر حلم أحميه.","في كل صباح أرفع رأسي فخرًا لأني من أرض الخير.","أحبك يا وطني بالعلم والعمل والإخلاص.","علمك الأخضر يرفرف عاليًا، وقلبي معه يخفق.","نحن بنات الوطن، وبنات المستقبل.","أرضك دفء، وسماؤك أمان، وأهلك كرم وعطاء.","أتعلّم اليوم لأبني غدًا يليق بك يا وطني.","كلنا وطن… كلٌّ في موقعه يبني ويعطي.","نخلتك الشامخة علّمتني الثبات والعطاء.","حفظ الله وطننا وقيادتنا وشعبنا."];
+WORDS.forEach(function(t,i){var d=document.createElement("div"),p=document.createElement("p");d.className="note";p.textContent=EM[i%EM.length]+" "+t;d.appendChild(p);document.getElementById("wall").appendChild(d)});
+var BK=[[22,70,"#efe1c6"],[18,86,"#b98a5a"],[24,62,"#5a3820"],[20,96,"#4d7a5a"],[26,74,"#efe1c6"],[18,88,"#8a5a37"],[22,66,"#d9c08e"],[20,80,"#2f5a3e"],[20,92,"#5a3820"],[24,70,"#b98a5a"],[18,100,"#efe1c6"]],NS="http://www.w3.org/2000/svg",bg=document.getElementById("bk");
+function mk(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
+function row(l,x){l.forEach(function(b){var y=128-b[1];bg.appendChild(mk("rect",{x:x,y:y,width:b[0],height:b[1],rx:2,fill:b[2],stroke:"#14241a","stroke-width":1}));[10,16].forEach(function(o){bg.appendChild(mk("rect",{x:x,y:y+o,width:b[0],height:2,fill:"#d9b56a"}))});bg.appendChild(mk("rect",{x:x+4,y:y+30,width:b[0]-8,height:12,rx:2,fill:"rgba(255,255,255,.35)"}));x+=b[0]+2})}
+row(BK,10);row(BK.slice().reverse(),356);
+var bn=document.createElement("b");bn.className="br";bn.textContent="❖ كلنا وطن";n.insertBefore(bn,n.firstChild);
+var pg=document.createElement("div");pg.id="pg";document.body.appendChild(pg);
+window.addEventListener("scroll",function(){var h=document.documentElement.scrollHeight-window.innerHeight;pg.style.width=(h>0?Math.min(100,window.scrollY/h*100):0)+"%"});
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.06});[].forEach.call(document.querySelectorAll(".page"),function(p){p.classList.add("rv");io.observe(p)})}
+var s2=document.querySelector(".shelf").cloneNode(true),g2=s2.querySelector("#bk"),pc=document.getElementById("p0"),L='<svg class="lt" viewBox="0 0 60 120" aria-hidden="true"><path d="M30 0V16" stroke="#d9b56a" stroke-width="2"/><path d="M17 28L43 28L36 16L24 16Z" fill="#d9b56a"/><circle cx="30" cy="62" r="26" fill="#ffe9b0" opacity=".35"/><path d="M16 30Q10 62 20 92L40 92Q50 62 44 30Z" fill="rgba(232,201,120,.4)" stroke="#d9b56a" stroke-width="2"/><path d="M30 30V92M23 30Q20 62 25 92M37 30Q40 62 35 92" stroke="#d9b56a" stroke-width="1.2" fill="none"/><ellipse cx="30" cy="66" rx="5" ry="9" fill="#fff3c9"/><rect x="18" y="92" width="24" height="7" rx="2" fill="#d9b56a"/><path d="M30 99V112" stroke="#d9b56a" stroke-width="2"/><circle cx="30" cy="114" r="3.5" fill="#e8c978"/></svg>';
+g2.removeAttribute("id");g2.textContent="";var keep=bg;bg=g2;row(BK.slice().reverse(),10);row(BK,356);bg=keep;
+pc.insertBefore(s2,pc.firstChild);pc.insertAdjacentHTML("afterbegin",L.replace('class="lt"','class="lt la"')+L.replace('class="lt"','class="lt lb"'));
+[].forEach.call(document.querySelectorAll(".cover>.lt"),function(e){e.remove()});
+function frond(m){var s=mk("svg",{viewBox:"0 0 160 160","aria-hidden":"true"}),P=[[0,6],[95,10],[150,100]],i=0,X=function(x){return m?160-x:x};
+function B(t){var a=(1-t)*(1-t),b=2*t*(1-t),c=t*t;return[a*P[0][0]+b*P[1][0]+c*P[2][0],a*P[0][1]+b*P[1][1]+c*P[2][1]]}
+function Tg(t){var x=2*(1-t)*(P[1][0]-P[0][0])+2*t*(P[2][0]-P[1][0]),y=2*(1-t)*(P[1][1]-P[0][1])+2*t*(P[2][1]-P[1][1]),l=Math.sqrt(x*x+y*y);return[x/l,y/l]}
+s.appendChild(mk("path",{d:"M"+X(0)+" 6Q"+X(95)+" 10 "+X(150)+" 100",fill:"none",stroke:"#d9b56a","stroke-width":4,"stroke-linecap":"round"}));
+for(var t=.1;t<.97;t+=.065){var p=B(t),u=Tg(t),Ln=30-16*t,col=(i++%2)?"#9dbb92":"#7fa57a";[1,-1].forEach(function(sg){var nx=-u[1]*sg,ny=u[0]*sg;s.appendChild(mk("line",{x1:X(p[0]),y1:p[1],x2:X(p[0]+nx*Ln+u[0]*12),y2:p[1]+ny*Ln+u[1]*12,stroke:col,"stroke-width":3,"stroke-linecap":"round"}))})}
+[[14,22],[24,28],[16,34]].forEach(function(d){s.appendChild(mk("circle",{cx:X(d[0]),cy:d[1],r:5,fill:"#d9a05b",stroke:"#b27a38"}))});return s}
+var f1=frond(0),f2=frond(1);f1.setAttribute("class","fr fl");f2.setAttribute("class","fr fq");pc.insertBefore(f1,pc.firstChild);pc.insertBefore(f2,pc.firstChild);
+document.querySelector(".mh").innerHTML=`<defs><linearGradient id="mg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6df"/><stop offset="1" stop-color="#f6dcae"/></linearGradient></defs><rect width="460" height="150" fill="url(#mg2)"/>
+<circle cx="230" cy="82" r="58" fill="#ffe9a8" opacity=".65"/><circle cx="230" cy="82" r="40" fill="#ffd98a" opacity=".5"/>
+<g fill="#fff" opacity=".9"><ellipse cx="70" cy="56" rx="26" ry="9"/><ellipse cx="88" cy="50" rx="16" ry="8"/><ellipse cx="392" cy="62" rx="28" ry="9"/><ellipse cx="374" cy="56" rx="16" ry="8"/></g>
+<path d="M0 8Q230 52 460 8" fill="none" stroke="#b98a5a" stroke-width="2"/>
+<polygon points="38,13 54,13 46,33" fill="#f2a88a"/><polygon points="84,19 100,19 92,39" fill="#8fc7a6"/><polygon points="130,24 146,24 138,44" fill="#f6d56e"/><polygon points="176,28 192,28 184,48" fill="#8fb8de"/><polygon points="222,30 238,30 230,50" fill="#f2a88a"/><polygon points="268,28 284,28 276,48" fill="#8fc7a6"/><polygon points="314,24 330,24 322,44" fill="#f6d56e"/><polygon points="360,19 376,19 368,39" fill="#8fb8de"/><polygon points="406,13 422,13 414,33" fill="#f2a88a"/>
+<rect x="50" y="116" width="70" height="12" rx="2" fill="#f2a88a"/><rect x="56" y="104" width="58" height="12" rx="2" fill="#8fb8de"/><rect x="60" y="92" width="50" height="12" rx="2" fill="#f6d56e"/><rect x="66" y="80" width="40" height="12" rx="2" fill="#8fc7a6"/>
+<rect x="340" y="116" width="70" height="12" rx="2" fill="#8fc7a6"/><rect x="346" y="104" width="58" height="12" rx="2" fill="#f2a88a"/><rect x="350" y="92" width="50" height="12" rx="2" fill="#8fb8de"/><rect x="356" y="80" width="40" height="12" rx="2" fill="#f6d56e"/>
+<g fill="#fff" opacity=".75"><rect x="56" y="120" width="58" height="2"/><rect x="62" y="108" width="46" height="2"/><rect x="66" y="96" width="38" height="2"/><rect x="72" y="84" width="28" height="2"/><rect x="346" y="120" width="58" height="2"/><rect x="352" y="108" width="46" height="2"/><rect x="356" y="96" width="38" height="2"/><rect x="362" y="84" width="28" height="2"/></g>
+<path d="M150 120Q192 112 230 126Q268 112 310 120L310 128Q268 122 230 134Q192 122 150 128Z" fill="#c99a6a"/><path d="M230 126Q192 112 150 120L150 86Q192 78 230 92Z" fill="#fff" stroke="#b98a5a" stroke-width="2"/><path d="M230 126Q268 112 310 120L310 86Q268 78 230 92Z" fill="#fff" stroke="#b98a5a" stroke-width="2"/>
+<g stroke="#e0c8a0" stroke-width="1.5"><path d="M162 98Q194 92 220 102M162 106Q194 100 220 110M240 102Q266 92 298 98M240 110Q266 100 298 106"/></g>
+<path d="M230 92V62" stroke="#b98a5a" stroke-width="5" stroke-linecap="round"/><path d="M230 62Q214 48 196 56M230 62Q218 38 204 36M230 62Q230 30 230 30M230 62Q242 38 256 36M230 62Q246 48 264 56" stroke="#6fbf86" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<rect x="150" y="40" width="16" height="20" rx="2" fill="#fff" stroke="#b98a5a" transform="rotate(-18 158 50)"/><rect x="296" y="42" width="16" height="20" rx="2" fill="#fff" stroke="#b98a5a" transform="rotate(16 304 52)"/><rect x="112" y="58" width="20" height="14" rx="2" fill="#f2a88a" transform="rotate(-14 122 65)"/><rect x="330" y="62" width="20" height="14" rx="2" fill="#8fb8de" transform="rotate(14 340 69)"/>
+<g fill="#e8b84a"><polygon points="30,80 33,88 41,88 35,93 37,101 30,96 23,101 25,93 19,88 27,88"/><polygon points="428,86 430,92 436,92 431,96 433,102 428,98 423,102 425,96 420,92 426,92"/><polygon points="200,18 201,22 205,22 202,25 203,29 200,26 197,29 198,25 195,22 199,22"/><polygon points="264,16 265,20 269,20 266,23 267,27 264,24 261,27 262,23 259,20 263,20"/></g>
+<path d="M0 150L0 138Q115 120 230 138T460 138L460 150Z" style="fill:var(--card)"/>`;
+md.addEventListener("click",function(e){if((e.target==md||e.target.className=="x")&&"speechSynthesis" in window)speechSynthesis.cancel()});
+var cv=document.getElementById("p0"),CR='<svg class="cr CC" viewBox="0 0 60 60" aria-hidden="true"><g fill="none" stroke="#f2d580" stroke-linecap="round"><path d="M3 3H50M3 3V50" stroke-width="3"/><path d="M12 12Q40 12 40 32Q40 46 28 46Q18 46 18 36Q18 28 26 28" stroke-width="2"/></g><circle cx="26" cy="28" r="3" fill="#f2d580"/><circle cx="4" cy="4" r="4" fill="#f2d580"/></svg>';
+cv.insertAdjacentHTML("afterbegin",'<svg class="arch" viewBox="0 0 600 640" aria-hidden="true"><defs><radialGradient id="ag" cx=".5" cy=".3" r=".7"><stop offset="0" stop-color="#fff0a8" stop-opacity=".3"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="gg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff0b0"/><stop offset=".5" stop-color="#e8c978"/><stop offset="1" stop-color="#b98a2a"/></linearGradient><pattern id="al" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M18 3L33 18 18 33 3 18Z" fill="none" stroke="#f3dca3" stroke-opacity=".25"/><circle cx="18" cy="18" r="2" fill="#f3dca3" fill-opacity=".3"/></pattern></defs><path d="M20 640V250Q20 70 300 12Q580 70 580 250V640Z" fill="url(#ag)"/><path d="M20 640V250Q20 70 300 12Q580 70 580 250V640Z" fill="url(#al)"/><path d="M20 640V250Q20 70 300 12Q580 70 580 250V640" fill="none" stroke="url(#gg)" stroke-width="7"/><path d="M42 640V252Q42 94 300 40Q558 94 558 252V640" fill="none" stroke="#f3dca3" stroke-opacity=".7" stroke-width="2"/><circle cx="300" cy="12" r="9" fill="url(#gg)"/></svg>'+CR.replace('CC','c1')+CR.replace('CC','c2')+'<i class="nj"></i>');
+var GC='<svg class="gc GG" viewBox="0 0 150 150" aria-hidden="true"><defs><linearGradient id="gk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b0"/><stop offset="1" stop-color="#c58f1c"/></linearGradient></defs><g fill="none" stroke="url(#gk)" stroke-linecap="round"><path d="M4 140A136 136 0 0 0 140 4" stroke-width="3"/><path d="M4 108A104 104 0 0 0 108 4" stroke-width="2"/><path d="M4 76A72 72 0 0 0 76 4" stroke-width="2.5"/><path d="M4 46A42 42 0 0 0 46 4" stroke-width="2"/></g><g fill="url(#gk)"><circle cx="100" cy="100" r="4"/><circle cx="77.5" cy="77.5" r="3.5"/><circle cx="55" cy="55" r="3"/><circle cx="33.7" cy="33.7" r="2.5"/><circle cx="4" cy="4" r="13"/><circle cx="140" cy="4" r="3"/><circle cx="4" cy="140" r="3"/></g><circle cx="4" cy="4" r="6" fill="#0b3d27"/></svg>';
+cv.insertAdjacentHTML("afterbegin",GC.replace('GG','g1')+GC.replace('GG','g2').replace('id="gk"','id="gk2"').replace(/url\(#gk\)/g,'url(#gk2)'));
+[].forEach.call(document.querySelectorAll(".shelf"),function(s,n){[1,2,3,4,5].map(function(i){return s.children[i]}).forEach(function(e){e.remove()});var g=mk("g",{});
+g.innerHTML='<defs><radialGradient id="PR"><stop offset="0" stop-color="#ffe9a0" stop-opacity=".4"/><stop offset="1" stop-color="#ffe9a0" stop-opacity="0"/></radialGradient><linearGradient id="PG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c0"/><stop offset="1" stop-color="#d9a830"/></linearGradient></defs><circle cx="300" cy="72" r="56" fill="url(#PR)"/><path d="M230 122Q268 113 300 126Q332 113 370 122L370 127Q332 121 300 130Q268 121 230 127Z" fill="#8a5a37"/><path d="M300 124Q268 114 232 120L232 96Q268 90 300 100Z" fill="#f7ecd2" stroke="#b98a5a" stroke-width="2"/><path d="M300 124Q332 114 368 120L368 96Q332 90 300 100Z" fill="#f7ecd2" stroke="#b98a5a" stroke-width="2"/><path d="M244 104Q270 99 292 106M244 111Q270 106 292 113M308 106Q330 99 356 104M308 113Q330 106 356 111" stroke="#d9c29a" stroke-width="1.5" fill="none"/><path d="M300 102C295 88 305 72 300 54" stroke="#e8c978" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M296 90L304 88M297 80L305 78M297 70L304 68" stroke="#b98a2a" stroke-width="2" stroke-linecap="round"/><g fill="url(#PG)"><path d="M300 54Q292 30 300 14Q308 30 300 54Z"/><path d="M300 52Q318 22 346 22Q320 32 300 56Z"/><path d="M300 52Q282 22 254 22Q280 32 300 56Z"/><path d="M300 52Q336 20 372 44Q338 34 300 57Z"/><path d="M300 52Q264 20 228 44Q262 34 300 57Z"/><path d="M300 52Q338 38 360 70Q334 50 300 58Z"/><path d="M300 52Q262 38 240 70Q266 50 300 58Z"/></g><g fill="#c9792e"><circle cx="293" cy="60" r="3.5"/><circle cx="300" cy="64" r="3.5"/><circle cx="307" cy="60" r="3.5"/></g>'.replace(/PR/g,"pr"+n).replace(/PG/g,"pg"+n);s.insertBefore(g,s.children[1])});
+var ST='<svg class="gs SS" viewBox="0 0 120 146" aria-hidden="true"><defs><linearGradient id="GA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b0"/><stop offset="1" stop-color="#c58f1c"/></linearGradient></defs><path d="M60 0V10" stroke="url(#GA)" stroke-width="2.5"/><g fill="rgba(232,201,120,.16)" stroke="url(#GA)" stroke-width="3" stroke-linejoin="round"><rect x="25" y="25" width="70" height="70" rx="3"/><rect x="25" y="25" width="70" height="70" rx="3" transform="rotate(45 60 60)"/></g><g fill="rgba(232,201,120,.28)" stroke="url(#GA)" stroke-width="2" stroke-linejoin="round"><rect x="40" y="40" width="40" height="40" rx="2"/><rect x="40" y="40" width="40" height="40" rx="2" transform="rotate(45 60 60)"/></g><g fill="url(#GA)"><circle cx="25" cy="25" r="4"/><circle cx="95" cy="25" r="4"/><circle cx="25" cy="95" r="4"/><circle cx="95" cy="95" r="4"/><circle cx="60" cy="10.5" r="4"/><circle cx="60" cy="109.5" r="4"/><circle cx="10.5" cy="60" r="4"/><circle cx="109.5" cy="60" r="4"/><circle cx="60" cy="60" r="10"/></g><circle cx="60" cy="60" r="4.5" fill="#1c3325"/><g fill="none" stroke="url(#GA)" stroke-width="2" stroke-linecap="round"><path d="M60 113V132M53 112Q48 126 51 138M67 112Q72 126 69 138"/></g><g fill="url(#GA)"><circle cx="60" cy="135" r="3.5"/><circle cx="51" cy="140" r="3"/><circle cx="69" cy="140" r="3"/></g></svg>';
+cv.insertAdjacentHTML("afterbegin",ST.replace('SS','gs1').replace(/GA/g,'sa1')+ST.replace('SS','gs2').replace(/GA/g,'sa2'));
+[].forEach.call(document.querySelectorAll("#ag stop"),function(e,i){if(!i)e.setAttribute("stop-opacity",".07")});
+[].forEach.call(document.querySelectorAll(".shelf"),function(s,n){var o=s.children[1];if(o)o.remove();var R="";for(var i=0;i<16;i++){var a=i*Math.PI/8,r2=i%2?44:54;R+="M"+(300+36*Math.cos(a)).toFixed(1)+" "+(60+36*Math.sin(a)).toFixed(1)+"L"+(300+r2*Math.cos(a)).toFixed(1)+" "+(60+r2*Math.sin(a)).toFixed(1)}
+var g=mk("g",{});g.innerHTML=('<defs><radialGradient id="PR"><stop offset="0" stop-color="#ffd978" stop-opacity=".22"/><stop offset="1" stop-color="#ffd978" stop-opacity="0"/></radialGradient><linearGradient id="PG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b0"/><stop offset="1" stop-color="#c58f1c"/></linearGradient></defs><circle cx="300" cy="62" r="62" fill="url(#PR)"/><path d="'+R+'" stroke="url(#PG)" stroke-width="2.2" stroke-linecap="round" fill="none"/><g fill="rgba(232,201,120,.22)" stroke="url(#PG)" stroke-width="2.6" stroke-linejoin="round"><rect x="279" y="39" width="42" height="42" rx="2"/><rect x="279" y="39" width="42" height="42" rx="2" transform="rotate(45 300 60)"/></g><g fill="rgba(232,201,120,.42)" stroke="url(#PG)" stroke-width="1.6" stroke-linejoin="round"><rect x="287" y="47" width="26" height="26" rx="1.5"/><rect x="287" y="47" width="26" height="26" rx="1.5" transform="rotate(45 300 60)"/></g><g fill="url(#PG)"><circle cx="279" cy="39" r="3.2"/><circle cx="321" cy="39" r="3.2"/><circle cx="279" cy="81" r="3.2"/><circle cx="321" cy="81" r="3.2"/><circle cx="300" cy="30.3" r="3.2"/><circle cx="300" cy="89.7" r="3.2"/><circle cx="270.3" cy="60" r="3.2"/><circle cx="329.7" cy="60" r="3.2"/><circle cx="300" cy="60" r="7"/></g><circle cx="300" cy="60" r="3" fill="#1c3325"/><path d="M300 100V90" stroke="url(#PG)" stroke-width="5" stroke-linecap="round"/><path d="M230 122Q268 113 300 126Q332 113 370 122L370 127Q332 121 300 130Q268 121 230 127Z" fill="#8a5a37"/><path d="M300 124Q268 114 232 120L232 96Q268 90 300 100Z" fill="#f7ecd2" stroke="#b98a5a" stroke-width="2"/><path d="M300 124Q332 114 368 120L368 96Q332 90 300 100Z" fill="#f7ecd2" stroke="#b98a5a" stroke-width="2"/><path d="M244 104Q270 99 292 106M244 111Q270 106 292 113M308 106Q330 99 356 104M308 113Q330 106 356 111" stroke="#d9c29a" stroke-width="1.5" fill="none"/>').replace(/PR/g,"qr"+n).replace(/PG/g,"qg"+n);s.insertBefore(g,s.children[1])});
+bn.innerHTML='<svg viewBox="0 0 100 100" aria-hidden="true" fill="none" stroke="#1c3325" stroke-linecap="round" stroke-linejoin="round"><path d="M50 66V40" stroke-width="7"/><path d="M50 40Q34 24 14 34M50 40Q38 14 22 16M50 40Q50 12 50 10M50 40Q62 14 78 16M50 40Q66 24 86 34" stroke-width="5"/><path d="M22 90L76 68M78 90L24 68" stroke-width="6"/></svg> كلنا وطن';
+var IC=["✨","📑","🎓","🌟","🤝","🌴","🏙️","🔢","📚","✍️","✉️","📜"];
+[].forEach.call(n.querySelectorAll("button"),function(b,i){if(IC[i])b.textContent=IC[i]+" "+b.textContent});
+var up=document.getElementById("up");up.onclick=function(){window.scrollTo({top:0,behavior:"smooth"})};window.addEventListener("scroll",function(){up.classList.toggle("on",window.scrollY>600)});
+var NUMS=[["999","الشرطة","🚓"],["998","الدفاع المدني","🚒"],["997","الإسعاف (الهلال الأحمر)","🚑"],["996","أمن الطرق","🛣️"],["995","مكافحة المخدرات","🛡️"],["994","حرس الحدود","⚓"],["993","المرور","🚦"]],
+FACTS=[["1932م","توحيد المملكة وإعلان اسمها «المملكة العربية السعودية»"],["23 سبتمبر","اليوم الوطني للمملكة"],["1902م","استرداد الرياض على يد الملك عبدالعزيز"],["13","عدد مناطق المملكة الإدارية"],["2016م","إطلاق رؤية المملكة 2030"],["2","الحرمان الشريفان: مكة المكرمة والمدينة المنورة"]],qok=0,qt=0;
+NUMS.forEach(function(x){var d=document.createElement("div"),a=document.createElement("span"),t=document.createElement("span");d.className="nb";a.className="n";a.textContent=x[0];t.className="t";t.textContent=x[2]+" "+x[1];d.appendChild(a);d.appendChild(t);document.getElementById("nums").appendChild(d)});
+FACTS.forEach(function(x){var d=document.createElement("div"),b=document.createElement("b"),s=document.createElement("span");d.className="ft";b.textContent=x[0];s.textContent=x[1];d.appendChild(b);d.appendChild(s);document.getElementById("facts").appendChild(d)});
+var LQ=-1;function quiz(){var box=document.getElementById("qz");box.textContent="";box.classList.remove("qa");void box.offsetWidth;box.classList.add("qa");var qi;do{qi=Math.floor(Math.random()*NUMS.length)}while(qi===LQ&&NUMS.length>1);LQ=qi;var q=NUMS[qi],o=[q[0]];while(o.length<4){var r=NUMS[Math.floor(Math.random()*NUMS.length)][0];if(o.indexOf(r)<0)o.push(r)}o.sort(function(){return Math.random()-.5});
+var h=document.createElement("div"),row=document.createElement("div");h.className="qh";h.textContent="ما رقم "+q[1]+"؟";row.className="qo";
+o.forEach(function(v){var b=document.createElement("button");b.className="b2";b.textContent=v;b.onclick=function(){qt++;if(v==q[0]){qok++;b.classList.add("good")}else b.classList.add("bad");[].forEach.call(row.children,function(x){x.disabled=true;if(x.textContent==q[0])x.classList.add("good")});document.getElementById("qs").textContent="✓ إجاباتك الصحيحة: "+qok+" من "+qt};row.appendChild(b)});box.appendChild(h);box.appendChild(row)}
+document.getElementById("qn").onclick=quiz;quiz();
+var GD=[["",[["999","الشرطة","🚓",""],["998","الدفاع المدني","🚒",""],["997","الإسعاف (الهلال الأحمر)","🚑",""],["1919","بلاغات العنف الأسري","🛡️","مجاني · 24 ساعة · سرية تامة"]]]];
+NUMS=[];var nbx=document.getElementById("nums");nbx.className="";nbx.textContent="";
+GD.forEach(function(g){var h=document.createElement("h4"),w=document.createElement("div");h.className="gh";h.textContent=g[0];w.className="nums";g[1].forEach(function(x){NUMS.push(x);var d=document.createElement("div"),a=document.createElement("span"),t=document.createElement("span");d.className="nb";a.className="n"+(x[0].length>4?" l":"");a.textContent=x[0];t.className="t";t.textContent=x[2]+" "+x[1];d.appendChild(a);d.appendChild(t);if(x[3]){var s=document.createElement("small");s.className="nt";s.textContent=x[3];d.appendChild(s)}w.appendChild(d)});if(g[0])nbx.appendChild(h);nbx.appendChild(w)});quiz();
+</script>
+</body>
+</html>
